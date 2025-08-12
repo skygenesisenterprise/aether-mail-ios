@@ -1,0 +1,57 @@
+{
+   "name": "ProtonMail",
+   "options": {
+      "createIntermediateGroups": true,
+      "deploymentTarget": {
+         "iOS": "16.0"
+      },
+      "postGenCommand": "xcodeGen/post_gen.sh"
+   },
+   "fileGroups": [
+      "ProtonMail",
+      "PushService",
+      "Share",
+      "Siri",
+      "ProtonMailTests",
+      "ProtonMailUITests"
+   ],
+   "configs": {
+      "Debug": "debug",
+      "Release": "release",
+      "Adhoc": "release"
+   },
+   "packages": {
+      "Difference": {
+         "url": "https://github.com/krzysztofzablocki/Difference.git",
+         "from": "1.0.0"
+      },
+      "Factory": {
+         "url": "https://github.com/hmlongco/Factory.git",
+         "from": "2.0.0"
+      },
+      "LifetimeTracker": {
+         "url": "https://github.com/krzysztofzablocki/LifetimeTracker.git",
+         "from": "1.0.0"
+      },
+      "ProtonCore": {
+         "url": "https://github.com/ProtonMail/protoncore_ios.git",
+         "from": "32.6.0"
+      },
+      "ProtonCoreEventsLoop": {
+         "path": "LocalPackages/ProtonCoreEventsLoop"
+      },
+      "ProtonInboxRSVP": {
+         "url": "https://gitlab.protontech.ch/apple/inbox/protoninboxrsvp",
+         "from": "2.7.0"
+      },
+      "SwiftCSSParser": {
+         "url": "https://github.com/stackotter/swift-css-parser.git",
+         "from": "0.0.0"
+      }
+   },
+   "configFiles": {
+      "Debug": "xcodeGen/xcconfig/Project-Debug.xcconfig",
+      "Release": "xcodeGen/xcconfig/Project-Release.xcconfig",
+      "Adhoc": "xcodeGen/xcconfig/Project-Release.xcconfig"
+   }
+}

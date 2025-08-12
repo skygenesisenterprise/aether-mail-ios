@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "191E1756-00D5-48FB-BDA1-29BD0CD29F27",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "environmentVariableEntries" : [
+      {
+        "key" : "DYNAMIC_DOMAIN",
+        "value" : "$(DYNAMIC_DOMAIN)"
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ProtonMail.xcodeproj",
+      "identifier" : "67596B012358FAE8B0782EE2",
+      "name" : "ProtonMailUITests"
+    }
+  },
+  "testTargets" : [
+    {
+      "selectedTests" : [
+        "MonkeyTests\/testMonkey()"
+      ],
+      "target" : {
+        "containerPath" : "container:ProtonMail.xcodeproj",
+        "identifier" : "67596B012358FAE8B0782EE2",
+        "name" : "ProtonMailUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

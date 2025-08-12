@@ -1,0 +1,138 @@
+{
+   "targets": {
+      "ProtonMail": {
+         "type": "application",
+         "platform": "iOS",
+         "sources": [
+            "ProtonMail/Extension/Foundations/APP_share_push_siri",
+            "ProtonMail/Extension/Foundations/APP_share_siri",
+            "ProtonMail/Models/APP",
+            {
+               "path": "ProtonMail",
+               "includes": [
+                  "**/APP",
+                  "**/APP_share",
+                  "**/APP_share_push",
+                  "**/APP_share_push_siri",
+                  "**/APP_share_push_uiTest",
+                  "Generated",
+                  "Resource/Localization",
+                  "Siri/IntentHandler.swift",
+                  "Siri/Intents.intentdefinition"
+               ],
+               "excludes": [
+                  "Resource/APP_share/DOMPurify"
+               ]
+            },
+            {
+               "path": "ProtonMail/Supporting Files/",
+               "excludes": [
+                  "**/*.plist",
+                  "**/*.entitlements",
+                  "**/*.md",
+                  "debug/SettingsEnvironment.bundle",
+                  "enterprise/SettingsEnvironment.bundle"
+               ]
+            },
+            {
+               "path": "ProtonMail/Resource/APP_share/DOMPurify/dist",
+               "includes": [
+                  "purify.min.js"
+               ]
+            }
+         ],
+         "dependencies": [
+            {
+               "sdk": "libc++.tbd"
+            },
+            {
+               "target": "ProtonMailAnalytics"
+            },
+            {
+               "target": "PushService",
+               "embed": true
+            },
+            {
+               "target": "Share",
+               "embed": true
+            },
+            {
+               "target": "Siri",
+               "embed": true
+            },
+            {
+               "sdk": "Social.framework"
+            },
+            {
+               "sdk": "StoreKit.framework"
+            },
+            {
+               "package": "Factory"
+            },
+            {
+               "package": "LifetimeTracker"
+            },
+            {
+               "package": "ProtonCore",
+               "products": [
+                  "OHHTTPStubs",
+                  "OHHTTPStubsSwift",
+                  "ProtonCoreAccountDeletion",
+                  "ProtonCoreAccountRecovery",
+                  "ProtonCoreAccountSwitcher",
+                  "ProtonCoreCryptoGoImplementation",
+                  "ProtonCoreForceUpgrade",
+                  "ProtonCoreLoginUI",
+                  "ProtonCoreHumanVerification",
+                  "ProtonCorePasswordChange",
+                  "ProtonCoreVCard"
+               ]
+            },
+            {
+               "package": "ProtonCoreEventsLoop"
+            },
+            {
+               "package": "ProtonInboxRSVP"
+            },
+            {
+               "package": "SwiftCSSParser"
+            },
+            {
+               "target": "ProtonMailUI"
+            }
+         ],
+         "preBuildScripts": [
+            {
+               "basedOnDependencyAnalysis": false,
+               "name": "LicensePlist",
+               "path": "xcodeGen/licensePlist.sh"
+            }
+         ],
+         "postBuildScripts": [
+            {
+               "basedOnDependencyAnalysis": false,
+               "name": "Overwrite Settings.bundle for Debug",
+               "path": "xcodeGen/copySettingsEnvironmentBundle.sh"
+            }
+         ],
+         "configFiles": {
+            "Debug": "xcodeGen/xcconfig/ProtonMail-Debug.xcconfig",
+            "Release": "xcodeGen/xcconfig/ProtonMail-Release.xcconfig",
+            "Adhoc": "xcodeGen/xcconfig/ProtonMail-Adhoc.xcconfig"
+         },
+         "settings": {
+            "configs": {
+               "Debug": {
+                  "INFOPLIST_FILE": "ProtonMail/Supporting Files/Info.plist"
+               },
+               "Release": {
+                  "INFOPLIST_FILE": "ProtonMail/Supporting Files/Info.plist"
+               },
+               "Adhoc": {
+                  "INFOPLIST_FILE": "ProtonMail/Supporting Files/Info.plist"
+               }
+            }
+         }
+      }
+   }
+}

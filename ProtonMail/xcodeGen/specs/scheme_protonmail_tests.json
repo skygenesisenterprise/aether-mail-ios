@@ -1,0 +1,51 @@
+{
+   "schemes": {
+      "ProtonMailTests": {
+         "build": {
+            "targets": {
+               "ProtonMailTests": [
+                  "test",
+                  "run"
+               ]
+            }
+         },
+         "run": {
+            "config": "Debug",
+            "environmentVariables": [
+               {
+                  "variable": "PROJECT_ROOT",
+                  "value": 1,
+                  "isEnabled": true
+               }
+            ]
+         },
+         "test": {
+            "config": "Debug",
+            "targets": [
+               "ProtonMailTests"
+            ],
+            "gatherCoverageData": true,
+            "coverageTargets": [
+               "ProtonMail"
+            ],
+            "language": "en",
+            "region": "US",
+            "environmentVariables": {
+               "TZ": "UTC",
+               "PROJECT_ROOT": "${SRCROOT}"
+            }
+         },
+         "profile": {
+            "config": "Release"
+         },
+         "analyze": {
+            "config": "Debug"
+         },
+         "archive": {
+            "config": "Release",
+            "customArchiveName": "ProtonMailTests",
+            "revealArchiveInOrganizer": true
+         }
+      }
+   }
+}

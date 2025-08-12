@@ -1,0 +1,2728 @@
+/* link opeining confirmation */
+
+"You are about to launch the web browser and navigate to" = "您將開啟網頁瀏覽器並導覽到";
+
+/* link opeining confirmation */
+"Request link confirmation" = "需求外部連結確認";
+
+/* Title in settings */
+"Display Name" = "顯示名稱";
+
+/* place holder */
+"Input Display Name…" = "輸入顯示名稱…";
+
+/* Title in signature settings */
+"Signature" = "簽名";
+
+/* Title */
+"Enable signature" = "啟用簽名檔";
+
+/* No comment provided by engineer. */
+"Enter your signature here" = "請在此處輸入您的簽名";
+
+/* Mobile Signature title in settings */
+"Mobile Signature" = "行動簽署";
+
+/* Title */
+"Recovery email" = "復原電郵";
+
+/* Title */
+"Enable email notices" = "啟用電郵通知";
+
+/* place holder */
+"Input Notification Email…" = "輸入通知電郵…";
+
+/* Settings row */
+"Remove image metadata" = "移除圖像中繼資料";
+
+/* Settings row */
+"Block email tracking" = "攔截郵件追蹤";
+
+/* Settings row */
+"Default browser" = "預設瀏覽器";
+
+/* menu title */
+"Menu" = "選單";
+
+/* menu title */
+"Report a problem" = "回報問題";
+
+/* menu title */
+"Inbox" = "收件匣";
+
+/*
+menu title
+Springboard (3D Touch) shortcuts action
+VoiceOver: email is starred
+*/
+"Starred" = "已加星號";
+
+/*
+menu title
+Push notification action to archive
+The title of the archive action in action sheet
+*/
+"Archive" = "封存";
+
+/* menu title */
+"Drafts" = "草稿";
+
+/*
+mail location title
+menu title
+*/
+"All Mail" = "所有郵件";
+
+/* menu title */
+"Sent" = "寄件備份";
+
+/*
+mail location desc
+menu title
+*/
+"Trash" = "垃圾桶";
+
+/* menu title */
+"Spam" = "垃圾郵件";
+
+/*
+Action and title
+menu title
+*/
+"Contacts" = "聯絡人";
+
+/* menu title (contact groups) */
+"Groups" = "群組";
+
+/* menu title */
+"Settings" = "設定";
+
+/*
+Alert title to confirm signout
+menu title
+*/
+"Sign out" = "登出";
+
+/* menu title */
+"Lock The App" = "鎖定應用程式";
+
+/*
+menu title
+The title of a subscription plans screen
+*/
+"Subscription" = "訂購授權";
+
+/* menu title */
+"Manage accounts" = "管理帳號";
+
+/*
+menu title
+The voiceiver title of the add attachment button in the tool bar of composer
+*/
+"Add attachment" = "加入附件";
+
+/* menu title */
+"Refer a friend" = "推薦好友";
+
+/* mail location title */
+"Scheduled" = "已排程";
+
+/* Description after message have been sent */
+"Message sent" = "郵件已傳送";
+
+/* The title will be shown when foler doesnt have emails */
+"Nothing to see here" = "這裡空空如也";
+
+/* The subtitle will be shown when folder doesnt have emails */
+"This folder is empty" = "此資料夾為空";
+
+/* The title of empty inbox */
+"You are all caught up!" = "您已讀取全部即時更新！";
+
+/* The subtitle of empty inbox */
+"Time to relax" = "中場休息一下";
+
+/* Action */
+"Undo" = "復原";
+
+/* Title */
+"Message has been deleted." = "郵件已刪除。";
+
+/* Title */
+"Message has been moved." = "已移動您的郵件。";
+
+/* Confirmation message before deleting a message */
+"You're going to delete the message irreversibly. Are you sure?" = "此郵件一旦刪除將無法復原。您確定要刪除嗎？";
+
+/* Title */
+"You have a new email!" = "您有一封新郵件！";
+
+/* abbreviation of reply: */
+"Re:" = "回覆：";
+
+/* abbreviation of forward: */
+"Fw:" = "轉寄:";
+
+/* Title */
+"wrote:" = "寫道：";
+
+/* On {date} at {time}, e.g.: On Sat, Aug 14, 2021 at 19:00 */
+"On %@ at %@" = "於 %1$@ %2$@";
+
+/* message Date: text */
+"Date:" = "日期：";
+
+/* subject: text when forward */
+"Subject:" = "主旨：";
+
+/* forwarded message title */
+"Forwarded message" = "已轉發的訊息";
+
+/* Title */
+"Set Password" = "設定密碼";
+
+/* Description */
+"Set a password to encrypt this message for non-Proton Mail users." = "為非 Protonv Mail 使用者設定一組密碼以進行加密郵件。";
+
+/* Placeholder */
+"Message Password" = "郵件密碼";
+
+/* Placeholder */
+"8 to 21 characters long" = "長度為 8 至 21 個字元";
+
+/* Error message */
+"The password must be between 8 and 21 characters long" = "密碼長度必須介於 8 至 21 個字元";
+
+/* textview title */
+"Repeat password" = "重複輸入密碼";
+
+/* Placeholder */
+"Passwords must match" = "密碼必須相符";
+
+/* Error message */
+"The 2 passwords are not matching" = "兩組密碼並不相符";
+
+/* action title */
+"Remove password" = "移除密碼";
+
+/* title */
+"Password Hint" = "密碼提示";
+
+/* button title */
+"Apply Password" = "套用密碼";
+
+/*
+Action
+Springboard (3D Touch) shortcuts action
+*/
+"Compose" = "撰寫郵件";
+
+/* Composer expiration page title */
+"Message expiration" = "郵件期限";
+
+/*
+contacts default label type
+Custom option for time config picker
+*/
+"Custom" = "自訂";
+
+/* Description */
+"Send message without subject?" = "確定要傳送沒有主旨的郵件嗎？";
+
+/* Description */
+"You need at least one recipient to send" = "至少需有一位收件人";
+
+/* Error */
+"Upgrade to a paid plan to send from your %@ address" = "升級至付款方案後，您將能夠從 %@ 傳送郵件";
+
+/* pm.me upgrade warning in composer */
+"Sending messages from %@ address is a paid feature. Your message will be sent from your default address %@" = "使用 %1$@ 傳送郵件屬於付費功能，因此您的郵件仍將從預設位址 %2$@ 寄出";
+
+/* Title */
+"From" = "寄件人";
+
+/* Title */
+"Bcc" = "密件副本";
+
+/* Placeholder */
+"Subject" = "主題";
+
+/* hint message */
+"Draft saved" = "草稿已儲存";
+
+/* Placeholder */
+"Define Hint (Optional)" = "設定密碼提示（可選）";
+
+/* Menu action to remove text formatting */
+"Clear Style" = "清除格式";
+
+/* new contacts add Organization */
+"Add organization" = "加入組織";
+
+/* new contacts add Nickname */
+"Add nickname" = "加入暱稱";
+
+/* new contacts add Title */
+"Add title" = "加入標題";
+
+/* new contacts add Birthday */
+"Add birthday" = "加入生日";
+
+/* new contacts add Anniversary */
+"Add anniversary" = "加入紀念日";
+
+/* new contacts add Gender */
+"Add gender" = "加入性別";
+
+/* Contacts add new contact */
+"New contact" = "加入聯絡人";
+
+/* add new address action */
+"Add new address" = "加入位址";
+
+/* new custom field action */
+"Add new custom field" = "加入自訂欄位";
+
+/* new email action */
+"Add new email" = "加入郵件";
+
+/* new phone action */
+"Add new phone number" = "加入手機號碼";
+
+/* new field action */
+"Add new field" = "加入欄位";
+
+/* default vcard types */
+"Personal" = "個人";
+
+/* default vcard types */
+"Work" = "工作";
+
+/* default vcard types */
+"Email" = "電郵";
+
+/* default vcard types */
+"Other" = "其它";
+
+/* default vcard types */
+"Phone" = "電話";
+
+/* default vcard types */
+"Mobile" = "手機";
+
+/* default vcard types */
+"Fax" = "傳真";
+
+/* default vcard types */
+"Address" = "電郵位址";
+
+/* default vcard types */
+"URL" = "網址";
+
+/* default vcard types */
+"Internet" = "網路";
+
+/* Title */
+"All contacts are imported" = "聯絡人已匯入";
+
+/* contact placeholder */
+"Street" = "街道";
+
+/* contact placeholder */
+"City" = "縣市";
+
+/* contact placeholder */
+"State" = "省/州";
+
+/* contact placeholder */
+"ZIP" = "郵遞區號";
+
+/* contact placeholder */
+"Country" = "國家";
+
+/* contacts talbe cell Organization title */
+"Organization" = "組織";
+
+/* contacts talbe cell Nickname title */
+"Nickname" = "暱稱";
+
+/* contacts talbe cell Title title */
+"Title" = "職銜";
+
+/* contacts talbe cell Birthday title */
+"Birthday" = "生日";
+
+/* contacts talbe cell Anniversary title */
+"Anniversary" = "週年紀念日";
+
+/* contacts talbe cell gender title */
+"Gender" = "性別";
+
+/* Send an email to the current contact (button title text) */
+"Email contact" = "發送電郵給聯絡人";
+
+/* Call the contact (button title text) */
+"Call contact" = "致電聯絡人";
+
+/* contact detail view, email addresses section title */
+"Email addresses" = "電郵位址";
+
+/* contact section title */
+"Encrypted contact details" = "經加密的聯絡人詳細資訊";
+
+/* action */
+"Share contact" = "分享聯絡人";
+
+/* title */
+"Notes" = "備註";
+
+/* Action */
+"Upload device contacts" = "上載裝置通訊錄";
+
+/* top right action text */
+"Create" = "創建";
+
+/* add label action */
+"Add Label" = "加入標籤";
+
+/* Action */
+"Add Folder" = "加入資料夾";
+
+/* place holder */
+"Folder Name" = "資料夾名稱";
+
+/* createing lable input place holder */
+"Label Name" = "標籤名稱";
+
+/* error message */
+"Access to this account is disabled due to non-payment. Please sign in through proton.me to pay your unpaid invoice." = "此帳號因仍有逾期待繳款項而被停用，請登入 proton.me 進行繳款。";
+
+/* Title */
+"Alert" = "警告";
+
+/* Done action */
+"Done" = "完成";
+
+/*
+Button to cancel encrypted search
+Cancel action
+general cancel action
+Title for the alert button to cancel delete all downloaded messages.
+Title for the alert button to cancel disable content search.
+*/
+"Cancel" = "取消";
+
+/* Dismiss popup action */
+"Dismiss" = "忽略";
+
+/* Open action */
+"Open" = "打開";
+
+/* remove action */
+"Remove" = "移除";
+
+/* Apply action */
+"Apply" = "套用";
+
+/* reply action */
+"Reply" = "回覆";
+
+/* reply all action */
+"Reply all" = "全部回覆";
+
+/* forward action */
+"Forward" = "轉寄";
+
+/* message From: field text */
+"From:" = "寄件者：";
+
+/*
+message To: feild
+Title
+*/
+"To" = "收件者";
+
+/*
+message Cc: feild
+Title
+*/
+"Cc" = "副本";
+
+/* message Bcc: feild */
+"Bcc:" = "密件副本:";
+
+/*
+general delete action
+The title of the delete action in action sheet
+Title for the alert button to delete all downloaded messages.
+*/
+"Delete" = "刪除";
+
+/* general close action */
+"Close" = "關閉";
+
+/* Description */
+"Your session has expired because you have been inactive for a while or because it has been revoked. Please log back in." = "由於您長時間沒有進行任何操作，您的往來對話已過期或是被撤銷。請重新登入。";
+
+/*
+Springboard (3D Touch) shortcuts action
+Title
+*/
+"Search" = "搜尋";
+
+/* Alert title */
+"Notice" = "通知";
+
+/* Title of alert in share extension. */
+"Error" = "錯誤";
+
+/* Action */
+"Don't remind me again" = "不要再提醒我";
+
+/* Action */
+"Send" = "送出";
+
+/*
+Action
+The action title of the alert of the user trying to send a message that was schedule-send.
+*/
+"Schedule send" = "排程送出";
+
+/* Alert title */
+"Message saved to Drafts" = "郵件已儲存到草稿";
+
+/* Alert message */
+"Too many messages waiting to be sent.\nPlease wait until another message has been sent to schedule this one." = "等待傳送的訊息太多了\n請等待其它訊息傳送後再送出此訊息。";
+
+/* Warning message */
+"The sending time needs to be at least 5 minutes in the future." = "發送時間至少需要 5 分鐘。";
+
+/* Action */
+"Send anyway" = "仍然傳送";
+
+/* Title */
+"Confirmation" = "確認";
+
+/* Action */
+"Draft" = "草稿";
+
+/* Title */
+"The request timed out." = "要求逾時。";
+
+/* Message */
+"Proton servers are unreachable.\nVisit our status page for details." = "Proton伺服器目前關閉。\n請參考狀態頁面獲得詳細資料。";
+
+/* Title */
+"No connectivity detected…" = "未偵測到網際網路連線…";
+
+/* Title */
+"Proton Mail is currently offline…" = "Proton Mail 目前處於離線狀態…";
+
+/* Title */
+"Save" = "儲存";
+
+/*
+Action
+The button title of the scheduled message banner.
+*/
+"Edit" = "編輯";
+
+/* Error message */
+"Invalid username!" = "無效的使用者名稱！";
+
+/* Error title */
+"Bad parameter" = "參數錯誤";
+
+/* Error Description */
+"Bad parameter: %@" = "參數錯誤： %@";
+
+/* Error Description */
+"Bad response" = "錯誤回應";
+
+/* Description */
+"Can't find the value from the response body" = "無法自回覆正文中找到相應的值";
+
+/* no object error, local only , this could be not translated! */
+"no object" = "無對象";
+
+/* Description */
+"Unable to parse response" = "無法解析回覆訊息";
+
+/* Description */
+"Unable to parse the response object:\n%@" = "無法解析回應對象：\n%@";
+
+/* spam score warning */
+"This email seems to be from a Proton Mail address but came from outside our system and failed our authentication requirements. It may be spoofed or improperly forwarded!" = "此信件看似由 Proton Mail 寄出的 ，但卻並非由我們的系統寄出，而且未能通過我們的認證需求。這可能是偽造或不當轉寄的郵件！";
+
+/* The error message that the incoming mail failed dmarc authentication */
+"This email has failed its domain's authentication requirements. It may be spoofed or improperly forwarded." = "此電郵未能通過其網域的認證需求。可能是因為遭人假冒或不當轉寄。";
+
+/* spam score warning */
+"This message may be a phishing attempt. Please check the sender and contents to make sure they are legitimate." = "此郵件可能帶有網路釣魚的企圖。請檢查寄件人身份及內容是否正當。";
+
+/* Description */
+"Sending Message" = "訊息傳送中";
+
+/* Sending message when device doesn't have netowrk connection description */
+"Offline, message queued for sending" = "離線，等待稍後傳送……";
+
+/* Description */
+"Message sending failed. Please try again." = "郵件傳送失敗，請重新嘗試。";
+
+/* import contact title */
+"Importing Contacts" = "正在匯入聯絡人";
+
+/* Title */
+"Reading device contacts data…" = "正在讀取裝置通訊錄資料…";
+
+/* title for the contact import indicator */
+"Importing contacts..." = "匯入聯絡人...";
+
+/* Description */
+"Do you want to cancel the process?" = "您是否要取消此程序？";
+
+/* Hint when users create / edit contact offline */
+"Contact saved, will be synced when connection is available" = "聯絡人已儲存，將在連線到網際網路時同步";
+
+/* Hint when users delete contact offline */
+"Contact deleted, will be synced when connection is available" = "聯絡人已刪除，將在連線到網際網路時同步";
+
+/*
+Action
+The title of button of PIN code setup2
+*/
+"Confirm" = "確認";
+
+/* Title */
+"Canceling" = "正在取消";
+
+/* title, default display name */
+"Unknown" = "未知";
+
+/* Action */
+"Import Error" = "匯入錯誤";
+
+/* Action */
+"OK" = "好";
+
+/* Action */
+"Later" = "稍後";
+
+/*
+Action
+The text for downloaded messages in local storage when encrypted search is disabled.
+*/
+"Disabled" = "已停用";
+
+/* contact placeholder */
+"Email address" = "電郵位址";
+
+/* top left back button */
+"Back" = "返回";
+
+/*
+A *short* description saying that there is no contact group associated with this contact email
+Action title of none
+The protection title of None protection
+Title
+*/
+"None" = "無";
+
+/* lock app option */
+"Every time enter app" = "每次進入應用程式時";
+
+/* Title */
+"Default" = "預設";
+
+/* Title */
+"Set" = "設定";
+
+/* Title */
+"Resetting message cache…" = "正在重設郵件快取……";
+
+/* Title */
+"This preference will fallback to Safari if the browser of choice is uninstalled." = "若卸載選用的瀏覽器，偏好選項將恢復為 Safari。";
+
+/* Unsupported url alert message */
+"The URL you are trying to access is not standard and may not load properly. Do you want to open it using your device's default browser?" = "您所要開啟的網址可能未符合標準規範，因此無法正常加載。是否仍然要使用預設瀏覽器開啟？";
+
+/* Title */
+"Auto Lock Time" = "自動鎖定時間";
+
+/* Title */
+"Change default address to…" = "變更預設郵件位址為...";
+
+/* pm.me upgrade warning in composer */
+"You can't set %@ address as default because it is a paid feature." = "您目前無法將 %@ 設為預設位址，因為這是付費功能。";
+
+/*
+Action
+The title of button of PIN code setup1
+*/
+"Continue" = "繼續";
+
+/* error message */
+"Please input a valid email address." = "請輸入有效的電郵位址。";
+
+/* Title */
+"Enter your PIN to unlock your inbox." = "請輸入 PIN 碼以解鎖收件匣。";
+
+/* Error */
+"Incorrect PIN." = "PIN 碼不正確。";
+
+/* Description */
+"Upload iOS contacts to Proton Mail?" = "是否上傳iOS通訊錄至Proton Mail？";
+
+/* Title-Contacts */
+"Delete contact" = "刪除聯絡人";
+
+/* Description */
+"PIN code can't be empty." = "PIN 碼不能為空。";
+
+/* Error */
+"Unknown Error" = "未知錯誤";
+
+/*
+Action
+The title of loading remote content banner.
+*/
+"Load remote content" = "載入遠端內容";
+
+/* Title */
+"Star/unstar" = "加上星號/移除星號";
+
+/* Title */
+"Proton Mail" = "Proton Mail";
+
+/* Title */
+"Remind Me Later" = "稍後提醒我";
+
+/* Title */
+"Don't Show Again" = "不要再顯示";
+
+/* Onboarding title */
+"Easily up-to-date" = "輕鬆更新";
+
+/* Onboarding title */
+"Privacy for all" = "人人都有隱私權保護";
+
+/* Onboarding title */
+"Neat and tidy" = "整齊俐落";
+
+/* Welcome to rebranding title */
+"Updated Proton, unified protection" = "改版更新的 Proton，全方面防護";
+
+/* Onboarding content */
+"Breeze through threaded messages in conversation mode." = "往來對話模式將說明您輕鬆瀏覽，並管理郵件往來。";
+
+/* Onboarding content */
+"Invite your contacts to Proton Mail to enjoy seamless end-to-end encryption, or add password protection to messages you send them." = "邀請您的親朋好友一同加入 Proton Mail，享有無縫接軌的端對端加密，也可以在您傳送給他們的郵件裡，加入密碼防護功能。";
+
+/* Onboarding content */
+"File, label, and color code messages to create your perfect, custom inbox." = "資料夾、標籤與顏色等模式，助您創造理想中完美、自訂的收件匣。";
+
+/* Welcome to rebranding content */
+"Introducing Proton’s refreshed look.\nMany services, one mission. Welcome to an Internet where privacy is the default." = "Proton 新樣貌隆重登場！\n多種服務，單一使命。歡迎蒞臨隱私為本的網路世界。";
+
+/* skip button title in onboarding page */
+"Skip" = "略過";
+
+/* title of the next button */
+"Next" = "下一個";
+
+/* title of the next button */
+"Get Started" = "入門指南";
+
+/* Description */
+"Unable to edit this message offline" = "無法離線編輯此郵件";
+
+/* like Date: 2017-10-10 */
+"Date: %@" = "日期：%@";
+
+/* Title */
+"Hide details" = "隱藏詳細資訊";
+
+/* contact placeholder */
+"Phone number" = "手機號碼";
+
+/* Contacts Edit contact */
+"Edit Contact" = "編輯聯絡人";
+
+/* Action */
+"Discard changes" = "捨棄變更";
+
+/* Action */
+"Discard" = "放棄";
+
+/* Message shown to user after discarding action is done */
+"Discarded" = "取消儲存";
+
+/* action */
+"Add new URL" = "加入網址";
+
+/* settings general section title */
+"Auto-load remote content" = "自動載入遠端內容";
+
+/* settings general section title */
+"Auto-load embedded images" = "自動載入嵌入圖像";
+
+/* settings swipe actions section title */
+"Left to Right" = "由左至右";
+
+/* settings swipe actions section title */
+"Right to Left" = "由右至左";
+
+/* Alert when user enabled FaceID in app settings but restricted the use of FaceID in device settings */
+"Unlock required" = "需要解鎖";
+
+/* Alert when user enabled FaceID in app settings but restricted the use of FaceID in device settings */
+"You disabled %1$@ in your system settings. %2$@ has been used to protect important account information. To access your account, go to settings and reactivate %3$@, or log back in." = "由於您關閉了%1$@的設定。%2$@使用於保護帳號安全。若要使用帳號，請於設定中啟用%3$@，或重新登錄。";
+
+/* A description string in pin & faceID setting page */
+"All protection settings will be reset and wiped upon signing out of the app." = "登出應用程式後，所有保護設定將會被重設。";
+
+/* A section title for timing section to set auto lock timing */
+"Timing" = "閒置計時";
+
+/* Alert when user enabled FaceID in app settings but restricted the use of FaceID in device settings */
+"Go to settings" = "前往設定";
+
+/* Alert when user enabled FaceID in app settings but restricted the use of FaceID in device settings */
+"Go to sign in" = "前往登入介面";
+
+/* Confirmation message */
+"You have unsaved changes. Do you want to save it?" = "您有尚未儲存的變更，是否要儲存？";
+
+/* title */
+"Save Changes" = "儲存變更";
+
+/* Title */
+"Recovery Code" = "復原代碼";
+
+/* Placeholder */
+"Two Factor Code" = "兩步驟驗證碼";
+
+/* Title */
+"Authentication" = "驗證";
+
+/* Action in 2fa popup view */
+"Enter" = "輸入";
+
+/* Title */
+"Storage Warning" = "儲存空間警告";
+
+/* Content of space warning */
+"You have used up all of your storage space (%@). Please upgrade your plan to continue to send and receive emails." = "您已用盡您所有的儲存空間 (%@)。請升級您的方案以繼續傳送與接收電郵。";
+
+/* Content of space warning */
+"You have used %d%% of your storage space (%@). Please upgrade your plan to continue to send and receive emails." = "您已使用了 %1$d%% 的儲存空間 (可用大小為 %2$@) 。請升級您的方案以繼續傳送與接收電子郵件。";
+
+/* Alert title */
+"Storage full" = "儲存空間已滿";
+
+/* Storage warning */
+"Storage quota exceeded" = "超過儲存空間限制";
+
+/* Content of storage full alert */
+"Please upgrade your plan" = "請升級您的方案";
+
+/* Content of storage full alert */
+"Please upgrade your plan to continue to send and receive emails." = "請升級您的方案以繼續傳送與接收電郵。";
+
+/* Title */
+"Warning" = "警告";
+
+/* Action */
+"Hide" = "隱藏";
+
+/* Action */
+"Show" = "顯示";
+
+/* update password error title */
+"Change Password" = "變更密碼";
+
+/* update password error = typo:Modulus */
+"Can't get a Modulus ID!" = "無法取得模數 ID！";
+
+/* update password error = typo:Modulus */
+"Can't get a Modulus!" = "無法取得模數！";
+
+/* update password error */
+"Invalid hashed password!" = "無效的雜湊密碼！";
+
+/* update password error */
+"The new password needs to be at least 8 characters long" = "新密碼長度至少為八個字元";
+
+/* update password error */
+"Can't create a SRP verifier!" = "無法創建一個 SRP 驗證程式！";
+
+/* update password error */
+"Can't create a SRP Client" = "無法創建一個 SRP 用戶端";
+
+/* update password error */
+"The password is wrong." = "密碼錯誤。";
+
+/* update password error */
+"The new password does not match." = "新密碼不相符。";
+
+/* update password error */
+"The new password can't be empty." = "新密碼不能為空。";
+
+/* update password error */
+"The private key update failed." = "私鑰更新失敗。";
+
+/* update password error */
+"Password update failed" = "密碼更新失敗";
+
+/* update notification email error title */
+"Update Notification Email" = "更新電郵通知";
+
+/* Title */
+"Apply Labels" = "套用標籤";
+
+/* Title of the view showing the message header */
+"Message headers" = "郵件標頭";
+
+/* Title of the view showing the message HTML source */
+"HTML" = "HTML";
+
+/* Title of the view showing the message body */
+"Message body" = "郵件內容";
+
+/* alert title */
+"Confirm phishing report" = "確認網路釣魚報告";
+
+/* alert message */
+"Reporting a message as a phishing attempt will send the message to us, so we can analyze it and improve our filters. This means that we will be able to see the contents of the message in full." = "檢舉一封郵件帶有網路釣魚的企圖，將會把郵件傳送給我們，讓我們可以分析郵件並改進我們的篩選。這意味我們將能夠完全飽覽郵件的內容。";
+
+/* error title */
+"Verification error" = "驗證錯誤";
+
+/* error details */
+"Verification of this content’s signature failed" = "內容簽章驗證失敗";
+
+/* error title */
+"Decryption error" = "解密發生錯誤";
+
+/* error details */
+"Decryption of this content failed" = "無法解密此內容";
+
+/* error details */
+"Decryption of this message's encrypted content failed." = "此郵件的加密內容解密失敗。";
+
+/* error title */
+"Logs" = "日誌";
+
+/* Title */
+"normal attachments" = "一般附件";
+
+/* Title */
+"inline attachments" = "內嵌附件";
+
+/* Title */
+"From your photo library" = "從您的相片圖庫挑選";
+
+/* Title */
+"Take new photo" = "拍攝新照片";
+
+/* Title */
+"Import from…" = "匯入自…";
+
+/* Alert title */
+"Attachment limit" = "附件上限";
+
+/* Description */
+"The size limit for attachments is 25 MB." = "附件大小上限為 25 MB。";
+
+/* Error */
+"Can't load the file" = "無法載入檔案";
+
+/* Error */
+"Can't open the file" = "無法打開檔案";
+
+/*
+Action
+alternative routing link name in description
+The title of learn more link
+*/
+"Learn more" = "瞭解詳情";
+
+/* Action */
+"Retry" = "重試";
+
+/* reply time template, e.g. On Fri, Jul 23, 2021 at 3:40 PM. E, M...yyyy is date formate */
+"'On' E, MMM d, yyyy 'at' %@" = "於 E, MMM d, yyyy 時間 %@";
+
+/* No comment provided by engineer. */
+"Message expired" = "郵件已過期";
+
+/* expiration time count down */
+"This message will expire in %dD %dH %dM" = "此郵件將於 %1$d 天 %2$d 小時 %3$d 分後逾期";
+
+/* Action */
+"Sign Out" = "登出";
+
+/* Alert title */
+"Sending in progress" = "正在傳送";
+
+/* the message will show when closing a draft from the share extension */
+"Closing" = "正在關閉";
+
+/* Alert message */
+"Please keep Proton Mail open until the operation is done." = "操作完成前請勿離開 Proton Mail 應用程式。";
+
+/* Title */
+"Bug Report Received" = "已收到您的錯誤回報";
+
+/* No comment provided by engineer. */
+"Thank you for submitting a bug report.  We have added your report to our bug tracking system." = "感謝您的錯誤回報，我們已將其添加至我們的 Bug 追踪系統中。";
+
+/* Title of the alert when the device is offline */
+"Offline" = "離線";
+
+/* Title */
+"Label as…" = "加上標籤…";
+
+/* Title */
+"Move to…" = "移至…";
+
+/* Action */
+"Mark as read/unread" = "標記為已讀/未讀";
+
+/* Action title of move to archive */
+"Move to archive" = "移至封存檔";
+
+/*
+Action title of move to spam
+The title of the spam action in action sheet
+*/
+"Move to spam" = "移至垃圾郵件";
+
+/* This is a generic error when the user uses share feature. It is like when you share files from Dropbox but cant read the file correctly */
+"Failed to load content!\nPlease try again." = "無法載入內容！\n請再試一次。";
+
+/* Error message */
+"Failed to determine type of file" = "無法確定檔案類型";
+
+/* Error message */
+"Unsupported file type" = "不支援的檔案類型";
+
+/* Error */
+"Can't copy the file" = "無法複製檔案";
+
+/* Title */
+"Copy address" = "複製郵件位址";
+
+/* Title */
+"Copy name" = "複製名稱";
+
+/* Title */
+"Copy" = "複製";
+
+/* Title */
+"Cut" = "剪下";
+
+/* Title */
+"Add to contacts" = "加入至通訊錄";
+
+/* encryption lock description */
+"Sender Verification Failed" = "寄件人驗證失敗";
+
+/* encryption lock description */
+"End-to-end encrypted message" = "端對端加密郵件";
+
+/* alert title */
+"Expiration not supported" = "不支援到期日";
+
+/* alert body before list of addresses */
+"We recommend setting up a password instead for the following recipients:" = "我們建議為以下收件人設定密碼：";
+
+/* alert body before list of addresses */
+"We recommend setting up a password instead, or disabling PGP for the following recipients:" = "我們建議為以下收件人設定密碼，又或者停用 PGP：";
+
+/*
+A option title that enable/disable notification feature
+cell title in device settings
+*/
+"Notifications" = "通知";
+
+/* VoiceOver: email belongs to folders */
+"Folders" = "資料夾";
+
+/* VoiceOver: email has lables */
+"Labels" = "標籤";
+
+/* Error message */
+"Is this bug report about an in-app purchase?" = "這是關於APP內購買的錯誤回報嗎？";
+
+/* Error message */
+"Our Customer Support team will try to activate your service plan manually if you agree to attach technical data that App Store provided to the app at the moment of purchase. This data does not include any details about your iTunes account, Apple ID, linked payment cards, or any other user information. Technical data only helps us check and verify that the transaction was fulfilled on the App Store's servers." = "如果您同意附上AppStore 在購買時提供給應用程序的技術數據，我們的客戶支援小組將嘗試手動啟用您的服務方案。此資料不包括有關您的 iTunes 帳戶、Apple ID、已連結的信用卡或任何其他使用者資訊的詳細資料。技術數據僅協助我們檢查和驗證購買交易是否已在 AppStore 的伺服器上完成。";
+
+/* Error message */
+"Yes, attach details of payment" = "是，附上付款詳情";
+
+/* Error message */
+"No, not related to in-app purchase" = "否, 與 App 內購買無關";
+
+/* The instruction label for the group name textfield */
+"Group name" = "群組名稱";
+
+/* The title for the contact group creation view */
+"New group" = "加入群組";
+
+/* The title for the contact group editing view */
+"Edit group" = "編輯群組";
+
+/* The title for the view where user can manage emails in the contact group */
+"Manage addresses" = "管理電郵位址";
+
+/* The title for the view where user can manage emails in the contact group */
+"Add contacts" = "加入聯絡人";
+
+/* The title for the view where user can select the color for the group */
+"Edit avatar" = "編輯頭像";
+
+/* The description of the button for deleting the contact group */
+"Delete contact group" = "刪除聯絡人群組";
+
+/* The message will show up when the user attempts to create a contact group without any email selected */
+"Please select at least one email for the contact group" = "請為聯絡人群組選擇至少一封電郵";
+
+/* The message will show up when the user attempts to create a contact group without any name specified */
+"Please provide a group name" = "請提供群組名稱";
+
+/* The error message will be shown when the update of the contact group through API failed */
+"Can't update contact group through the API" = "無法通過 API 更新聯絡人群組";
+
+/* The error message will be shown when the deletionn of the contact group through API failed */
+"Can't delete contact group through API" = "無法通過 API 刪除聯絡人群組";
+
+/* Internal type casting error */
+"Type casting error" = "類型轉換錯誤";
+
+/* The preconditions are not met */
+"Internal Error" = "內部錯誤";
+
+/* Drag and drop zone for attachments */
+"+ Drop here to add as attachment" = "+ 拖至此處以加入附件";
+
+/* Drag and drop zone for attachments */
+"Importing attachment, that can take a while" = "正在匯入附件中，可能需要一點時間";
+
+/* Drag and drop zone for attachments */
+"Attachment imported" = "附件已匯入";
+
+/* Invalid URL error when click a url in contact */
+"Invalid URL" = "URL 無效";
+
+/* More actions button */
+"More" = "更多";
+
+/* Local notification title */
+"Problem sending message" = "傳送郵件時發生錯誤";
+
+/* Local notification text */
+"We could not send your message, possibly because of a poor network connection. Your message was saved to Drafts and will be sent automatically the next time you open the app." = "我們無法傳送您的郵件，可能是因為網路連接不良的關係。您的郵件已儲存為草稿，並將在您下次開啟應用程式時自動傳送。";
+
+/* Alert to confirm signout */
+"You will be switched to %@" = "您將切換為 %@";
+
+/*
+Alert to confirm sign out
+Alert when sign out non-primary account from account manager
+*/
+"Are you sure you want to sign out?" = "您確定要登出嗎？";
+
+/* Alert to confirm sign out when only one account signed in */
+"Are you sure you want to sign out %@?" = "您確定要登出 %@ 嗎？";
+
+/* Alert to confirm signout with pending message in the queue */
+"There are unsent messages that will be lost if you sign out" = "如果您現在登出，將會遺失仍未傳送的郵件";
+
+/* The message will show up when the user attempts to apply label/folder in inbox without select any emails */
+"Please select at least one email" = "請選擇至少一個電郵";
+
+/* Alert when auth token is revoked and switch to another */
+"Signed out from %@ and signed in with %@" = "登出 %1$@ 並登入 %2$@";
+
+/* Alert when switched account by clicking notification of another account */
+"Switched to account '%@'" = "切換至帳號「%@」";
+
+/* Cert pinning failed alert title */
+"Insecure connection" = "不安全的連線";
+
+/* Cert pinning failed alert message */
+"TLS certificate validation failed. Your connection may be monitored and the app is temporarily blocked for your safety.\n\nSwitch networks immediately." = "TLS 憑證驗證失敗。您的連線可能正被監控，應用程式基於安全考量已暫時攔截。\n\n立即切換可用網路.";
+
+/* Cert pinning failed alert message */
+"TLS certificate validation failed. Your connection may be monitored and the app is temporarily blocked for your safety." = "TLS 憑證驗證失敗。目前的連線可能正被監控，應用程式基於安全考量已暫時阻擋連線。";
+
+/* Cert pinning failed alert message */
+"Disable Validation" = "停用驗證";
+
+/* Account manager title */
+"Account" = "帳號";
+
+/* Alert when the account is already logged in */
+"The user is already signed in" = "該使用者已登入";
+
+/* Title of alert when the free account limit is reached */
+"Limit reached" = "已達上限";
+
+/* Alert when the free account limit is reached */
+"Only two free accounts can be added" = "最多可新增兩個免費帳戶";
+
+/* section title in settings */
+"Account settings" = "帳號設定";
+
+/* section title in settings */
+"App settings" = "應用程式設定";
+
+/* section title in settings */
+"General settings" = "一般設定";
+
+/* security title in settings */
+"App PIN" = "應用程式 PIN 碼";
+
+/* security title in settings */
+"App PIN & Touch ID" = "應用程式 PIN 與 Touch ID";
+
+/* security title in settings */
+"App PIN & Face ID" = "應用程式 PIN 與 Face ID";
+
+/* cell title in device settings */
+"Language" = "語言";
+
+/*
+cell title in device settings
+The title of combined contact in settings
+*/
+"Combined contacts" = "合併聯絡人";
+
+/* cell title in app settings */
+"Swipe actions" = "滑動操作";
+
+/* cell title in app settings */
+"Alternative routing" = "替代路由";
+
+/* cell title in device settings */
+"Addresses" = "位址";
+
+/* Cell title in device settings - mute notification until a later time. */
+"Snooze" = "延後";
+
+/* cell title in device settings */
+"Mailbox" = "郵箱";
+
+/* cell title in device settings */
+"Privacy" = "隱私";
+
+/* cell title in device settings */
+"Local storage limit" = "本機儲存空間限制";
+
+/* cell title in device setting */
+"Clear local cache" = "清除本地快取";
+
+/* cell title in app setting */
+"Dark mode" = "深色模式";
+
+/* network troubleshot cell title */
+"Allow alternative routing" = "允許替代路由";
+
+/* network troubleshot cell title */
+"No internet connection" = "無網路連線";
+
+/* The error message is shown in composer */
+"Recipient not found" = "未能找到收件人";
+
+/* The error message is shown in composer */
+"Invalid email address" = "無效的電郵位址";
+
+/* incorrect email format error in composer */
+"At least one recipient email address is improperly formatted, please double check them." = "至少有一個收件人電郵位址格式不正確，請重新檢查。";
+
+/* incorrect email format error in composer */
+"Error sending" = "傳送時發生錯誤";
+
+/* incorrect email format error while sending */
+"At least one email address in the group could not be found" = "該群組之中至少有一個電郵位址找不到";
+
+/* incorrect email format error while sending */
+"At least one recipient email address/domain doesn't exist or is badly formatted. Message moved to drafts." = "至少一個收件人的電郵位址/網域不存在或格式錯誤。 郵件已移至草稿。";
+
+/* incorrect email format error while sending */
+"You have entered at least one invalid email address. Please verify your recipients." = "您輸入了至少一個無效的電郵位址。請驗證您的收件人。";
+
+/* incorrect email format error while sending */
+"At least one email address in the group could not be found." = "該群組之中至少有一個電郵位址找不到。";
+
+/* incorrect email format error while sending */
+"You have entered at least one unknown recipient. Please verify your recipients." = "您輸入了至少一個未知的收件人。請驗證您的收件人。";
+
+/* title of incorrect email format error while sending */
+"Sending failed" = "傳送失敗";
+
+/* title of alert acton of incorrect email format error */
+"Go to drafts" = "前往草稿";
+
+/* title of toast message that user taps the message which is uploading */
+"Draft is still uploading…" = "草稿仍在上載中…";
+
+/* content of the sending mesage that will display this text on the date label */
+"Sending message…" = "正在傳送郵件…";
+
+/* The unread title of unread action button in mailbox view */
+"unread" = "未讀";
+
+/* The title of last update status of more than 1 hour */
+"Updated >1 hour ago" = "更新於 1 小時前";
+
+/* The title of last update status of updated just now */
+"Updated just now" = "剛剛更新";
+
+/* The text shown on the mailbox when the device is in offline mode */
+"You are offline" = "您現正離線";
+
+/* The footer shown when there is not result in the inbox */
+"Encrypted by Proton" = "經 Proton 加密";
+
+/* The text shown on the mailbox when the primary user changed */
+"Signed in as %@" = "已使用 %@ 登入";
+
+/*
+The title of the star action in action sheet
+VoiceOver title of star button in the message view
+*/
+"Star" = "星號";
+
+/* The title of the star action in action sheet */
+"Unstar" = "移除星號";
+
+/* The title of the unread action in action sheet */
+"Mark as unread" = "標記為未讀";
+
+/*
+Push notification action mark as read
+The title of the read action in action sheet
+*/
+"Mark as read" = "標示為已讀取";
+
+/*
+Push notification action move to trash
+The title of the remove action in action sheet
+*/
+"Move to trash" = "移至垃圾桶";
+
+/* The title of the remove action in action sheet */
+"Move to inbox" = "移至收件匣";
+
+/* The title of the view message in light mode action in action sheet */
+"View message in Light mode" = "在淺色模式下查看郵件";
+
+/* The title of the view message in dark mode action in action sheet */
+"View message in Dark mode" = "在深色模式下查看郵件";
+
+/*
+alternative routing description
+The footer of alternative routing setting
+*/
+"In case Proton sites are blocked, this setting allows the app to try alternative network routing to reach Proton, which can be useful for bypassing firewalls or network issues. We recommend keeping this setting on for greater reliability. %1$@" = "若 Proton 網站遭到封鎖，該設定可讓應用程式嘗試使用替代路由來連線至 Proton，適用於繞過防火牆或網路問題。我們建議保持開啟本設定以獲得最佳可用性。%1$@";
+
+/* The title of alternative routing settings */
+"Networking" = "網路";
+
+/* The title of On setting options */
+"On" = "開啟";
+
+/* The title of Off setting options */
+"Off" = "關閉";
+
+/* The title of re auth alert */
+"Re-authenticate" = "重新認證";
+
+/* The content of the re auth alert */
+"Enter your password to make changes" = "輸入您的密碼以作變更";
+
+/* Title of the banner which is displayed when sender of the message requests a read receipt */
+"Send read receipt" = "傳送已讀回條";
+
+/* A label text which is displayed after sending read receipt to sender */
+"Receipt sent" = "讀取回條已傳送";
+
+/* Message of a banner which is displayed on the messages list when offline */
+"We have trouble connecting to the servers. Please reconnect." = "連線到伺服器時發生問題。請重新連線。";
+
+/* Title of message permanent deletion alert, singular */
+"Delete message" = "刪除郵件";
+
+/* Title of message permanent deletion alert, plural */
+"Delete %d Messages" = "刪除 %d 封郵件";
+
+/* No comment provided by engineer. */
+"Current Recovery Email" = "目前的復原電郵位址";
+
+/* No comment provided by engineer. */
+"Recovery enabled" = "已啟用復原";
+
+/* No comment provided by engineer. */
+"Please set a recovery / notification email" = "請設定一個復原 / 通知電郵";
+
+/* No comment provided by engineer. */
+"Unread" = "未讀";
+
+/* No comment provided by engineer. */
+"Read" = "已讀";
+
+/* No comment provided by engineer. */
+"Set up swipe gestures to access most used actions." = "設定撥動手勢以存取最常用操作。";
+
+/* No comment provided by engineer. */
+"Tap here to set" = "點按此處以設定";
+
+/* No comment provided by engineer. */
+"Not set" = "未設定";
+
+/* The section title of folder manager table */
+"Your folders" = "您的資料夾";
+
+/* The title of create folder page */
+"New folder" = "加入資料夾";
+
+/* The title of edit folder page */
+"Edit folder" = "編輯資料夾";
+
+/* The title of delete folder button */
+"Delete folder" = "刪除資料夾";
+
+/* The section title of label manager table */
+"Your labels" = "您的標籤";
+
+/* The title of create label page */
+"New label" = "加入標籤";
+
+/* The title of edit label page */
+"Edit label" = "編輯標籤";
+
+/* The title of delete label button */
+"Delete label" = "刪除標籤";
+
+/* The button to enable label list reorder */
+"Reorder" = "重新排序";
+
+/* Setting option title of folder setting page */
+"Parent folder" = "上層資料夾";
+
+/* Alert message when user tries to delete folder */
+"This action cannot be undone. Emails stored in this folder will not be deleted and can be found in the All Mail folder." = "此操作無法復原。儲存於此資料夾中的電郵不會刪除，可於 [所有郵件] 資料夾中找到。";
+
+/* Alert message when user tries to delete label */
+"This action cannot be undone." = "此操作無法復原。";
+
+/* Alert message when user tries to discard unsaved changes */
+"Any unsaved changes will be lost." = "未儲存的變更將會消失。";
+
+/* A label message */
+"Inherited from parent folder" = "繼承自上層資料夾";
+
+/* Alert title */
+"Creating folder not allowed" = "不允許創建資料夾";
+
+/* Alert title */
+"Creating label not allowed" = "不允許創建標籤";
+
+/* Alert message */
+"Please upgrade to a paid plan to use more than 3 folders" = "請升級至付費方案以使用超過 3 個資料夾";
+
+/* Alert message */
+"Please upgrade to a paid plan to use more than 3 labels" = "請升級至付費方案以使用超過 3 個標籤";
+
+/* Alert message is shown when the device doesn't have network connection */
+"Please connect and retry" = "請連線後再試一次";
+
+/* Option title */
+"Use folder colors" = "使用資料夾顏色";
+
+/* Option title */
+"Inherit color from parent folder" = "繼承自上層資料夾的顏色";
+
+/* section title */
+"Select color" = "選取顏色";
+
+/* No comment provided by engineer. */
+"You are not connected. We cannot display the content of your message." = "當前無網絡連線，我們無法顯示您的郵件內容。";
+
+/* No comment provided by engineer. */
+"Do you really want to remove this file from attachments?" = "您確定要從附件中移除此檔案嗎？";
+
+/* The title of loading embedded image banner. */
+"Load embedded images" = "載入內崁圖像";
+
+/* No comment provided by engineer. */
+"This conversation contains trashed messages" = "此往來對話群組包含已移至「垃圾桶」的郵件";
+
+/* No comment provided by engineer. */
+"This conversation contains non-trashed messages." = "此往來對話包含非垃圾訊息。";
+
+/* No comment provided by engineer. */
+"Message actions" = "訊息的動作";
+
+/* No comment provided by engineer. */
+"Manage" = "管理";
+
+/* No comment provided by engineer. */
+"Move message" = "移動郵件";
+
+/* No comment provided by engineer. */
+"Print" = "列印";
+
+/* No comment provided by engineer. */
+"Save as PDF" = "儲存為 PDF";
+
+/* No comment provided by engineer. */
+"View headers" = "檢視標頭";
+
+/* No comment provided by engineer. */
+"View HTML" = "以 HTML 瀏覽";
+
+/* No comment provided by engineer. */
+"Report phishing" = "回報網路釣魚";
+
+"Not spam (move to inbox)" = "非垃圾郵件 (移動至收件匣)";
+
+/* No comment provided by engineer. */
+"Move to" = "移至";
+
+/* No comment provided by engineer. */
+"Do you want to discard your changes?" = "您要捨棄您所作的變更嗎？";
+
+/* No comment provided by engineer. */
+"Your changes will be discarded" = "您所作的變更將被捨棄";
+
+/* No comment provided by engineer. */
+"Label as" = "加上標籤";
+
+/* Checkbox on Label as action sheet to  prompt if user wants to archive the conversation/message as well when applying one or more labels */
+"Also archive?" = "同時封存?";
+
+/* No comment provided by engineer. */
+"New Label" = "加入標籤";
+
+/* No comment provided by engineer. */
+"Undisclosed Recipients" = "非公開收件者";
+
+/* No comment provided by engineer. */
+"Our system flagged this message as a phishing attempt. Please check that it is legitimate." = "我們的系統已將此郵件認定為釣魚郵件。請檢查這是否正常郵件。";
+
+/* No comment provided by engineer. */
+"Mark as legitimate" = "標記為正當郵件";
+
+/* The title of auto reply banner */
+"This message was automatically generated" = "此郵件是自動產生的電郵";
+
+/* Warning message */
+"Do you want to discard the changes?" = "您要捨棄所作的變更嗎？";
+
+/* No comment provided by engineer. */
+"Group emails from the same conversation together." = "將相同的往來對話電郵進行歸納。";
+
+/* No comment provided by engineer. */
+"Conversation grouping" = "往來對話群組";
+
+/* No comment provided by engineer. */
+"Conversation mode" = "往來對話群组模式";
+
+/* No comment provided by engineer. */
+"Undo send" = "取消傳送";
+
+/* The protection title of PIN code protection */
+"PIN code" = "PIN 碼";
+
+/* The protection title of Face ID protection */
+"Face ID" = "Face ID";
+
+/* The protection title of Touch ID protection */
+"Touch ID" = "Touch ID";
+
+/* The title of the button that shows in the conversation view when there is new message coming. */
+"New Message" = "新郵件";
+
+/* The string that will be read by VoiceOver if the user wants to switch selection mode. */
+"Switch selection mode" = "切換選擇模式";
+
+/* No comment provided by engineer. */
+"Yesterday" = "昨天";
+
+/* VoiceOver title of account switcher button in the menu */
+"Open account switcher" = "開啟帳號切換程式";
+
+/* text displayed in composer when attachments are uploading */
+"Sending will be available\nwhen attachments are uploaded" = "附件上傳後\n才可以傳送";
+
+/* Alert title when attachment upload failed */
+"Attachment failure" = "加入附件失敗";
+
+/* Alert message when attachment upload failed */
+"The following files couldn't be attached:" = "無法附加以下檔案：";
+
+/* The title of voice over action of expanding the folder */
+"Expand folder" = "展開資料夾";
+
+/* The title of voice over action of collapsing the folder */
+"Collapse folder" = "收合資料夾";
+
+/* The title of voice over action that switches the unread filter status in the inbox */
+"Switch unread filter" = "切換顯示已讀或未讀郵件";
+
+/* The title of button to collapse the expanded message in conversation view for VoiceOver. */
+"Collapse message" = "收合郵件";
+
+/* The title of section inside the dark mode setting page */
+"Appearance" = "介面視覺";
+
+/* The title of follow system option in dark mode setting */
+"Follow device setting" = "跟隨裝置的設定";
+
+/* The title of always on option in dark mode setting */
+"Always on" = "保持開啟";
+
+/* The title of always off option in dark mode setting */
+"Always off" = "保持關閉";
+
+/* The title of banner that is shown after using swipe action to trash a message */
+"Message moved to trash" = "郵件已移至「垃圾桶」";
+
+/* The title of banner that is shown after using swipe action to archive a message */
+"1 message moved to archive" = "一封郵件已移至「封存」";
+
+/* The title of banner that is shown after using swipe action to spam a message */
+"1 Message moved to spam" = "一封郵件已移至「垃圾桶」";
+
+/* The title of toast message that is shown after the undo action is done */
+"Action reverted" = "動作復原";
+
+/* An action title shows in ellipsis menu */
+"Compose message" = "撰寫郵件";
+
+/* An action title shows in ellipsis menu */
+"Empty Trash" = "清空「垃圾桶」";
+
+/* Alert title */
+"Empty trash folder" = "清空垃圾桶";
+
+/* An action title shows in ellipsis menu */
+"Empty Spam" = "清空垃圾郵件";
+
+/* Alert title */
+"Empty spam folder" = "清空垃圾郵件";
+
+/* Warning message */
+"Cannot empty folder right now." = "目前無法清空資料夾。";
+
+/* Warning message when users try to empty messages in the folder */
+"Are you sure you want to permanently delete all messages within '%@'?" = "Are you sure you want to permanently delete all messages within '%@'?";
+
+/* Button title to show full encrypted message body when decryption failed */
+"…[Show full message]" = "…[顯示完整郵件]";
+
+/* The title of notification that will show when the token of one account is revoked */
+"Signed out of %@" = "已從 %@ 登出";
+
+/* The body of notification that will show when the token of one account is revoked */
+"Sign in again to keep receiving updates" = "再次登錄以持續接收更新";
+
+/* Alert title when users want to send a message without attachments but contain attachment-related keywords in the message body */
+"No attachment found" = "找不到附件";
+
+/* Alert body for no attachment found */
+"Do you want to send your message anyway?" = "您仍要傳送此電郵嗎？";
+
+/* The title of the button in the composer that will show the cc/bcc field when voiceover is on. */
+"Add CC and BCC" = "加入 CC 及 BCC";
+
+/* The title of the button in the composer that will close the cc/bcc field when voiceover is on. */
+"Close CC and BCC" = "關閉 CC 及 BCC";
+
+/* The title of the button in the composer that can select different sender address. */
+"Choose different sender address" = "選擇不同的寄件人位址";
+
+/* The voiceiver title of the add password button in the tool bar of composer. */
+"Set mail password" = "設定郵件密碼";
+
+/* The voiceiver title of the add expiration button in the tool bar of composer */
+"Set mail expiration" = "設定郵件有效期限";
+
+/* The voiceover title of the dismiss keyboard action */
+"Dismiss keyboard" = "收起螢幕鍵盤";
+
+/* The title of the link confirmation alert of spam email. */
+"Warning: suspected fake website" = "警告：疑似假冒網站";
+
+/* The content of the link confirmation alert of spam email. */
+"This link leads to a website that might be trying to steal your information, such as passwords and credit card details.\n%@\n\nFor your security, do not continue." = "此連結指向的網站可能試圖竊取您的資訊，如密碼、信用卡詳細資訊等。\n%@\n\n出於安全考慮，切勿打開此連結。";
+
+/* The title of the button to open the link in spam mail. */
+"Ignore warning and continue" = "忽略警告並繼續";
+
+/* The title of the button to cancel the action of opening the link in spam mail. */
+"Go back (recommended)" = "返回（推薦）";
+
+/* Description for undo send */
+"This feature delays sending your emails, giving you the opportunity to undo send during the selected time frame." = "此項功能延遲傳送您的電郵，讓您有機會在選定的時間內取消傳送。";
+
+/* The title of the scheduled message banner. */
+"This message will be sent on %@ at %@" = "郵件將於 %1$@ 的 %2$@ 傳送";
+
+/* The title of the time label of the scheduled message that is about to be sent today. */
+"Today, %@" = "今天，於 %@";
+
+/* The title of the time label of the scheduled message that is about to be sent tomorrow. */
+"Tomorrow, %@" = "明天，於 %@";
+
+/* The title of the alert that will be shown when user tries to delete a scheduled message. */
+"Schedule will be removed" = "行事曆將會被移除";
+
+/* The alert title of the user trying to send a message that was schedule-send. */
+"Send immediately?" = "立即傳送？";
+
+/* The message of the alert of the user trying to send a message that was schedule-send. */
+"This message is no longer scheduled to be sent later. If you still want to send it later, you can tap on \"Schedule send\"" = "這封郵件之後就不再排程傳送。 如果您仍想稍後傳送，可以點擊“排程傳送”";
+
+/* The action title of the alert of the user trying to send a message that was schedule-send. */
+"Send immediately" = "立即傳送";
+
+/* The content of the introducation view of the schedule send */
+"You can now schedule your messages to be sent later" = "您現在可以安排稍後傳送訊息";
+
+/* The title of the banner that will be shown when you schedule a message. */
+"Scheduling message..." = "正在排程訊息...";
+
+/* The message after tapping the encryption icon. */
+"Sent by you with end-to-end encryption to verified recipient" = "您傳送此訊息至收件者全程採用端對端加密技術";
+
+/* The message after tapping the encryption icon. */
+"Sent by Proton Mail with zero-access encryption to verified recipient" = "本訊息傳送至收件者全程採用 Proton Mail 及其零存取加密技術";
+
+/* The message after tapping the encryption icon. */
+"Sent by you with end-to-end encryption" = "由您以端對端加密傳送";
+
+/* The message after tapping the encryption icon. */
+"Sent by Proton Mail with zero-access encryption" = "本訊息遞送採用 Proton Mail 及其零存取加密技術";
+
+/* The message after tapping the encryption icon. */
+"Stored with zero-access encryption" = "以零存取加密儲存";
+
+/* The message after tapping the encryption icon of message received. */
+"End-to-end encrypted message from verified sender" = "來自已驗證寄件人的端對端加密郵件";
+
+/* The message after tapping the encryption icon of message received. */
+"End-to-end encrypted and signed message" = "端對端加密並簽署郵件";
+
+/* The message after tapping the encryption icon of message received. */
+"PGP-encrypted message from verified sender" = "來自已驗證寄件人的 PGP 加密郵件";
+
+/* The message after tapping the encryption icon of message received. */
+"PGP-encrypted and signed message" = "PGP 加密並簽署郵件";
+
+/* The message after tapping the encryption icon of message received. */
+"PGP-signed message from verified sender" = "來自已驗證寄件人的 PGP 簽署郵件";
+
+/* The message after tapping the encryption icon of message received. */
+"PGP-encrypted message" = "PGP 加密郵件";
+
+/* The message after tapping the encryption icon of message received. */
+"PGP-signed message" = "PGP 簽署郵件";
+
+/* The message after tapping the encryption icon of message received. */
+"PGP-signed message. Sender verification failed" = "經 PGP 簽署的郵件。寄件人驗證失敗";
+
+/* The message after tapping the encryption icon of recipient in composer. */
+"End-to-end encrypted to verified recipient" = "經端對端加密寄送已驗證收件人";
+
+/* The message after tapping the encryption icon of recipient in composer. */
+"End-to-end encrypted" = "經端對端加密";
+
+/* The message after tapping the encryption icon of recipient in composer. */
+"PGP-encrypted to verified recipient" = "經 PGP 加密寄送給已驗證收件人";
+
+/* The message after tapping the encryption icon of recipient in composer. */
+"PGP-encrypted" = "經 PGP 加密";
+
+/* The message after tapping the encryption icon of recipient in composer. */
+"PGP-signed" = "經 PGP 簽署";
+
+/* The error message while calculating the encryption preferences */
+"Email address disabled" = "電郵位址已停用";
+
+/* The error message while calculating the encryption preferences */
+"No keys retrieved for internal user" = "內部使用者沒有擷取到任何金鑰";
+
+/* The error message while calculating the encryption preferences */
+"No valid keys retrieved for internal user" = "無法擷取內部使用者適用的有效金鑰";
+
+/* The error message while calculating the encryption preferences */
+"Trusted keys are not valid for sending" = "已信任的密鑰用於寄送時無效";
+
+/* The error message while calculating the encryption preferences */
+"No WKD key retrieved for user is valid for sending" = "未為內部使用者檢索到有效WKD密鑰";
+
+/* The error message while calculating the encryption preferences */
+"The sending key is not valid" = "寄送金鑰無效";
+
+/* The time label for message is about to be sent less in 1 minute in the list view. */
+"<1m" = "< 1 分鐘";
+
+/* The time label for message is about to be sent less in 1 minute not in the list view. */
+"less than 1 minute" = "少於1分鐘";
+
+/* The alert title of user trying to open a scheduled-send message after its time is up. */
+"The message is being sent and will move to the Sent folder once sending is complete." = "郵件正在寄送，傳送完成後將移至寄件資料夾。";
+
+/* The title of the section header in the toolbar customize view. */
+"Toolbar actions (select up to 5)" = "工具列動作 (最多可選 5 項)";
+
+/* The title of the section header in the toolbar customize view. */
+"Available actions" = "可用操作";
+
+/* The title of the info bubble view in toolbar customization view. */
+"You can choose and rearrange the actions in your toolbar" = "您可自由選擇或重新安排工具列的動作。";
+
+/* The title of the alert after tapping reset in toolbar customization view. */
+"Reset to default?" = "還原成預設值?";
+
+/* The content of the alert after tapping reset in toolbar customization view. */
+"The actions in the toolbar will be reset to default" = "重設工具列選項為預設值";
+
+/* The title of the reset button in toolbar customization view. */
+"Reset to default" = "還原成預設值";
+
+/* The title of the item in the App settings section of the device setting view. */
+"Customize toolbar" = "自訂工具列";
+
+/* The title of the first item in the segment control of the Customize toolbar setting view. */
+"Message" = "訊息";
+
+/* The title of the info label in the first segment of the Customize toolbar setting view. */
+"This toolbar is visible when reading a message." = "讀取郵件時，顯示工具列。";
+
+/* The title of the info label in the second segment of the Customize toolbar setting view. */
+"This toolbar appears when selecting multiple messages in your inbox." = "多選訊息時，收件匣會出現此工具列。";
+
+/* The content of the Customize toolbar spotlight view. */
+"You can now choose and rearrange the actions in this bar" = "您可自由選擇或重新安排工具列的動作。";
+
+/* Title of the banner alert */
+"Your Mail storage is %@ full" = "您的 Mail 儲存空間%@滿了";
+
+/* Title of the banner alert */
+"Your Drive storage is %@ full" = "您的雲端磁碟儲存空間%@滿了";
+
+/* Title of the banner alert */
+"Your Mail storage is full" = "您的 Mail 儲存空間已滿";
+
+/* Title of the banner alert */
+"Your Drive storage is full" = "您的 Drive 儲存空間已滿";
+
+/* Description of the banner alert */
+"Upgrade to get more storage." = "升級以增加儲存。";
+
+/* Get more storage button action */
+"Not now" = "現在不要";
+
+/* Get more storage button action */
+"Get more storage" = "取得更多儲存空間";
+
+/* Spotlight title */
+"Sized for reading" = "Sized for reading";
+
+/* Spotlight body */
+"Now the body text of your emails will also be shown in your preferred reading size." = "Now the body text of your emails will also be shown in your preferred reading size.";
+
+/* Title of the banner alert */
+"Your storage is full" = "您的儲存空間已滿";
+
+/* Title of the banner alert */
+"Your subscription has ended" = "Your subscription has ended";
+
+/* Title of the banner alert */
+"Your account is at risk of deletion" = "Your account is at risk of deletion";
+
+/* Description of the banner alert */
+"To send or receive emails, free up space or upgrade for more storage." = "您的儲存已滿，要傳送或接收電郵，請釋放儲存空間或升級以取得更多空間。";
+
+/* Description of the banner alert */
+"To upload files, free up space or upgrade for more storage." = "To upload files, free up space or upgrade for more storage.";
+
+/* Description of the banner alert */
+"Upgrade to restore full access and to avoid data loss." = "Upgrade to restore full access and to avoid data loss.";
+
+/* Description of the banner alert */
+"To avoid data loss, ask your admin to upgrade." = "To avoid data loss, ask your admin to upgrade.";
+
+/* Upgrade button action */
+"Upgrade" = "升級";
+
+/* Button to block a sender */
+"Block messages from this sender" = "封鎖來自此寄件者的訊息";
+
+/* Button to block a sender, keep it short to fit in the UI */
+"Block" = "攔截";
+
+/* Settings item to open blocked sender list */
+"Block list" = "攔截清單";
+
+/* Title of the blocked sender list screen */
+"Blocked Senders" = "攔截的寄件者";
+
+/* Shown when the user attempts to manually refresh the list of blocked senders while offline */
+"Update queued, awaiting connectivity..." = "已送出更新指令, 等待網路連線中...";
+
+/* Placeholder for empty sender list */
+"No blocked senders" = "沒有攔截的寄件者";
+
+"New emails from %@ won’t be delivered and will be permanently deleted. Manage blocked email addresses in settings." = "來自 %@ 的新郵件都不會被傳送，且會被永久刪除。在設定頁面管理攔截的郵箱位址。";
+
+/* Banner in the message view */
+"Sender has been blocked" = "寄件者已被攔截";
+
+/* Toast confirming the block */
+"Sender %@ blocked" = "寄件者 %@ 已攔截";
+
+/* Toast confirming the unblock */
+"Sender %@ unblocked" = "寄件者 %@ 已解除攔截";
+
+/* Button to unblock a sender */
+"Unblock sender" = "解除攔截寄件者";
+
+/* Button to unblock a sender, keep it short to fit in the UI */
+"Unblock" = "解除攔截";
+
+/* Headline of the Calendar landing page */
+"Your schedule is worth protecting" = "你的行程安排很重要，值得受到保護";
+
+/* Subheadline of the Calendar landing page */
+"Your calendar is a record of your life, Proton Calendar helps keep it private." = "行事曆紀錄著你的生活軌跡，Proton Calendar 幫你守護隱私。";
+
+/* Button to open the App Store page for Proton Calendar */
+"Get Proton Calendar app" = "取得 Proton Calendar 應用程式";
+
+/* Name of the feature */
+"Email tracking protection" = "電郵追蹤防護";
+
+/* Short hint in the header view */
+"No email trackers found" = "未找到電郵追蹤器";
+
+/* Tracker protection feature explanation */
+"Email trackers can violate your privacy." = "電子郵件追蹤器會侵犯您的隱私。";
+
+/* The banner shown in case of proxy failure */
+"Some images could not be loaded with tracking protection." = "因有追蹤程式保護，因此某些影像無法載入。";
+
+/* Button inside the banner */
+"Load" = "載入";
+
+/* Title of an event with missing title */
+"(no title)" = "(無標題)";
+
+/* As in: event organizer */
+"Organizer" = "召集人";
+
+/* Button to hide some items in the list to conserve screen estate */
+"Show less" = "顯示較少";
+
+/* Text shown when opening an invitation for a past event */
+"This event already ended" = "事件已結束";
+
+/* Text shown when opening an invitation for a cancelled event */
+"This event has been cancelled" = "此事件已取消";
+
+/* Prompt above yes/no/maybe buttons */
+"Attending?" = "參加？";
+
+/* Part of a yes/no/maybe prompt */
+"Yes" = "是";
+
+/* Part of a yes/no/maybe prompt */
+"No" = "否";
+
+/* Part of a yes/no/maybe prompt */
+"Maybe" = "也許";
+
+/* Confirm attending an event */
+"Yes, I'll attend" = "是，我會出席";
+
+/* Deny attending an event */
+"No, I won't attend" = "否，我不會出席";
+
+/* Neither confirm nor deny attending an event */
+"I might attend" = "或許參加";
+
+/* Information that the user is an optional participant */
+"(Attendance optional)" = "(非必要出席)";
+
+/* As in: Every 3 days */
+"Every %@" = "每 %@";
+
+/* As in: on Saturday */
+"on %@" = "於 %@";
+
+/* As in: on the last Saturday */
+"on the %@" = "在%@";
+
+/* Phrase \"on day\" with an ordinal, e.g. on day 6 of a given month */
+"on day %u" = "於 %u 日";
+
+/* As in: Until Sep 27, 2025 */
+"until %@" = "直到 %@ 為止";
+
+/* Event date format used in email sent with an invitation answer. Example: January 28, 2023 at 8:00 PM (GMT+2), where %1@ - month, day, and year, %2@ - hour, %3@ - time zone offset */
+"%1@ at %2@ %3@" = "%1@，於 %2@ %3@";
+
+/* Status in an email body sent with an invitation answer */
+"accepted" = "已接受";
+
+/* Status in an email body sent with an invitation answer */
+"declined" = "已拒絕";
+
+/* Status in an email body sent with an invitation answer */
+"tentatively accepted" = "暫訂參與";
+
+/* Body of an email sent with an invitation answer. Format: <event_attendee_email> has <accepted|tentatively accepted|declined> your invitation to <event_title> */
+"%1@ has %2@ your invitation to %3@" = "%1@ 中 %2@ 您的邀請出席 %3@";
+
+/* Part of the body of the email sent to the participants that indicates the event's title */
+"You are invited to %@" = "你被邀請至%@";
+
+/* Part of the body of the email sent to the participants that indicates the event's location */
+"LOCATION:\n%@" = "地點:\n%@";
+
+/* Part of the body of the email sent to the participants that indicates the event's notes */
+"DESCRIPTION:\n%@" = "說明:\n%@";
+
+/* Body of the email sent to the participants that indicates the event has been cancelled */
+"%@ was cancelled." = "%@ 已被取消。";
+
+/* Subject of the email sent to the participants invited to a given all-day single event after answering */
+"Re: Invitation for an event on %@" = "回覆：誠摯邀請您參與訂於 %@ 的活動";
+
+/* Subject of an email sent with an invitation answer after answering */
+"Re: Invitation for an event starting on %@" = "回覆：誠摯邀請您參與 %@ 開展的活動";
+
+/* Occurring every day */
+"Daily" = "每天";
+
+/* Occurring every week */
+"Weekly" = "每週";
+
+/* Occurring every month */
+"Monthly" = "每月";
+
+/* Occurring every year */
+"Yearly" = "每年";
+
+/* \"1st\" spelled out */
+"first" = "第一";
+
+/* \"2nd\" spelled out */
+"second" = "第二";
+
+/* \"3rd\" spelled out */
+"third" = "第三";
+
+/* \"4th\" spelled out */
+"fourth" = "第四";
+
+/* Opposite of \"first\" */
+"last" = "最後";
+
+/* Title of the spotlight view */
+"Easily RSVP to events" = "Easily RSVP to events";
+
+/* Body of the spotlight view */
+"Now you can respond to an invitation or view the event in Proton Calendar with just one tap. " = "Now you can respond to an invitation or view the event in Proton Calendar with just one tap. ";
+
+/* Menu title */
+"Max Storage" = "最大儲存";
+
+/* Cell title that shows the percentage of the storage */
+"Storage: %@ full" = "儲存: %@以滿";
+
+/* Cell title that shows the percentage of the storage */
+"Drive: %@ full" = "硬碟: %@以滿";
+
+/* Official badge next to sender's name */
+"Official" = "官方";
+
+/* The banner title after tapping link copy button in referral share view. */
+"Link copied." = "已複製連結。";
+
+/* The article title of the referral share view. */
+"Invite friends to Proton,\n get up to $90 in credits!" = "推薦親友加入 Proton，\n就有機會獲得高達 90 元獎勵金！";
+
+/* The article content of the referral share view. */
+"Invite your friends to Proton: they try Mail Plus for free, and you earn credits when they subscribe to a paid plan." = "推薦親友加入 Proton：新手親友們可免費嚐鮮 Mail Plus，期滿後若繼續訂購授權方案，您也同享獎勵金入帳。";
+
+/* The title link of the textfield of the referral link in referral share view. */
+"Your invite link" = "您的邀請連結";
+
+/* The title of the share button in referral share view. */
+"Share" = "分享";
+
+/* The title of the track reward button in referral share view. */
+"Track your rewards" = "推薦獎勵總覽";
+
+/* The title of the terms and conditions button in referral share view. */
+"Terms & conditions" = "條款及細則";
+
+/* The content that is shared through the action: `Share the link` */
+"I’ve been using Proton Mail and thought you might like it. It’s a secure email service that protects your privacy. Sign up with this link to get 1 month of premium features for free:" = "我正在用 Proton Mail ，我覺得您也會喜歡它。他是一個主打安全性的電郵服務，可以保護您的隱私權。用我的連結註冊的話還可以免費獲得一個月的加值帳號哦：";
+
+/* The content of the referral prompt view. */
+"Your privacy is better protected if your contacts also use Proton Mail. Invite your friends to Proton, and you will each get premium benefits for free." = "使用Proton Mail能更進一步的保障隱私。邀請朋友使用Proton，即可免費使用會員版。";
+
+/* The title of the maybe later button in referral prompt view. */
+"Maybe later" = "稍後再考慮";
+
+/* The footer of combined contact in settings */
+"Turn this feature on to auto-complete email addresses using contacts from all your signed in accounts." = "啟用此功能，以使用已登入帳號中的聯絡人，自動填入電子郵件位址。";
+
+/* contacts auto import title in settings */
+"Auto-import device contacts" = "自動從裝置匯入聯絡人";
+
+/* contacts auto import footer in settings */
+"Turn this feature on to automatically add new contacts from your device to the Proton Mail app." = "開啟此功能已自動添加於裝置上的聯絡人至Proton Mail 應用程式。";
+
+/* Auto import alert title */
+"Auto-import enabled" = "自動匯入已啟用";
+
+/* Auto import alert message */
+"The initial import may take some time and will only occur when the app is in the foreground." = "第一次匯入可能需要一些時間，而且只有在 App 處於前景（執行中）時才會進行。";
+
+/* Alert to ask user to reauthorise access to contacts */
+"Access to contacts was disabled. To enable auto-import, go to settings and enable contact permission." = "由於存取聯絡人功能被停用，自動匯入的功能無法使用。請前往設定 > 開啟「聯絡人」權限，以啟用自動匯入。";
+
+/* Settings lock protection section */
+"Protection" = "保護";
+
+/* Settings lock advanced settings section */
+"Advanced settings" = "進階設定";
+
+/* Settings lock AppKey feature */
+"AppKey protection" = "程式金鑰防護";
+
+/* Settings lock AppKey description */
+"AppKey further protects your Proton information in case of elaborate attacks, such as an attacker cloning the contents of your device. %1$@" = "程式金鑰更深層保護您的 Proton 資訊，以防遭到精心策劃的攻擊，例如：攻擊者複製您裝置的內容。%1$@";
+
+/* AppKey disclaimer title when turning on */
+"Disclaimer" = "免責聲明";
+
+/* AppKey disclaimer when turning on */
+"Notification actions and other background processes will become unavailable" = "通知動作及其他背景執行程序將會無法使用";
+
+/* One of schedule time options */
+"Tomorrow" = "明天";
+
+/* One of the schedule time options */
+"As scheduled" = "按排程";
+
+/* The title of the up sell content of the scheduled send. */
+"Set your own schedule" = "設定您自己的排程";
+
+/* The content of the up sell content of the scheduled send. */
+"Unlock custom message scheduling and other benefits when you upgrade your plan." = "升級方案以解鎖自訂訊息排程與其他好處。";
+
+/* The title of the upgrade button in the schedule send promotion view. */
+"Upgrade now" = "立即升級";
+
+/* The up sell bullet point in the schedule send promotion view. */
+"Schedule messages at any time" = "Schedule messages at any time";
+
+/* The up sell bullet point in the schedule send promotion view. */
+"Up to 500 GB of storage" = "多達 500 GB的儲存空間";
+
+/* The up sell bullet point in the schedule send promotion view. */
+"Up to 15 email addresses" = "多達 15 組電子郵件位址";
+
+/* The up sell bullet point in the schedule send promotion view. */
+"Up to 3 custom email domains" = "支援 3 個自訂電郵網域";
+
+/* The up sell bullet point in the schedule send promotion view. */
+"Hide My Email aliases" = "Hide My Email aliases";
+
+/* One of schedule time options */
+"In the morning" = "在早上";
+
+/* Push notification action archive */
+"Archive (verb)" = "封存";
+
+/* Message to show to user after updating password. */
+"Password updated" = "密碼已更新";
+
+/* Title for application logs settings option */
+"Application logs" = "應用程式紀錄";
+
+/* Badge present on some spotlights */
+"New!" = "新版!";
+
+/* Got it action */
+"Got it" = "了解";
+
+/* The title of the setting of the next msg after move */
+"Jump to next email" = "跳到下一則電子郵件";
+
+/* The footer title of the setting row of the next msg after move functions. */
+"Automatically show the next email when an open email is deleted, archived, or moved." = "刪除、封存或移動開啟中的郵件後，自動顯示下一封。";
+
+/* The title of the button of the jump to next message spotlight. */
+"Turn on feature" = "啟用功能";
+
+/* The content of the jump to next message spotlight. */
+"View the next email in your inbox when you delete or move the current email." = "刪除或移動郵件後，自動顯示收件匣中的下一封郵件。";
+
+/* The title of the jump to next message spotlight. */
+"Read emails faster" = "更快速地閱讀電子郵件";
+
+/* Message for error when app set up at launch fails */
+"An unexpected error occurred, please contact support.\nError: %@" = "發生了預料外的狀況，請聯絡客服人員尋求協助。\n錯誤代碼：%@";
+
+/* Title for error when app set up at launch fails */
+"Insufficient disk space" = "硬碟空間不足";
+
+/* Message for error when app set up at launch fails */
+"The application cannot open due to insufficient disk space. Please delete some data and try again" = "由於硬碟空間不足，應用程式無法開啟。請刪除一些資料後再試一次。";
+
+/* Error message when open message failed */
+"Couldn't open the message, try again." = "無法開啟訊息，請再嘗試。";
+
+/* Error message when user open the share extension without account logged in. */
+"Please sign in to the Proton Mail app." = "請登入 Proton Mail";
+
+/* The action title in the action sheet of the reply action in conversation view. */
+"Reply (to last message)" = "回覆 (傳送至最新往來對話訊息)";
+
+/* The action title in the action sheet of the forward action in conversation view. */
+"Forward (last message)" = "轉寄 (最新往來對話訊息相關人等)";
+
+/* The action title in the action sheet of the reply action in conversation view. */
+"Reply all (to last message)" = "回覆全部 (最新往來對話訊息裡相關人等)";
+
+/* The action title in the action sheet of the composing new message */
+"New message" = "新訊息";
+
+/* The action title of the button on the toolbar customization spotlight view. (verb) */
+"Customize (verb)" = "自訂";
+
+/* The place holder text in the bug report view. */
+"Bug Report Place Holder" = "---為了讓我們能協助你解決問題, 請盡可能提供所有細節---\n\n摘要:\n\n之前是否發生過相同問題: 是/否\n重現此問題之操作步驟:\n預期結果:\n實際結果:\n其他說明:";
+
+/* Checkbox to attach local application logs to the bug report. */
+"Include logs" = "附加紀錄檔";
+
+/* The sub title of the search view if there is no result. */
+"Try a different search term." = "嘗試使用其他搜尋關鍵字。";
+
+/* zero messages matching search query */
+"No results found" = "找不到相符的結果";
+
+/* The title of the setting of the auto-delete option */
+"Auto-delete" = "自動刪除";
+
+/* The title of the row inside the setting page of auto delete option */
+"Auto-delete unwanted messages" = "自動刪除垃圾訊息";
+
+/* The footer title of the setting row of the auto delete option */
+"Messages in trash or spam longer than 30 days will be automatically deleted." = "將自動刪除超過30天的垃圾郵件";
+
+/* Title of the alert to confirm enabling of the auto delete option */
+"Delete messages?" = "刪除郵件?";
+
+/* Message of the alert to confirm enabling of the auto delete option */
+"This will delete all messages that are in trash or spam for more than 30 days, including messages currently in these folders." = "此會刪除全部於垃圾桶及垃圾郵件超過30天的訊息，包含所有現在此資料夾的訊息。";
+
+/*
+Button to enable encrypted search
+The title of the button to move to settings and enable encrypted search.
+*/
+"Enable" = "啟用";
+
+/* Text to advertise the auto delete feature to free users */
+"Upgrade to automatically delete messages that have been in trash or spam for more than 30 days." = "升級以自動刪除在垃圾桶和垃圾郵件中超過30天的訊息。";
+
+/* Text to prompt paid users to enable the auto delete feature */
+"Automatically delete messages that have been in trash and spam for more than 30 days." = "自動刪除在垃圾桶與垃圾郵件中超過30天的訊息。";
+
+/* Title of button to discard auto delete option */
+"No, thanks" = "不用了，謝謝";
+
+/* Text to inform users they have the auto delete feature enabled */
+"Messages that have been in trash and spam more than 30 days will be automatically deleted." = "垃圾桶與垃圾郵件中超過30天的訊息將會被自動刪除。";
+
+/* Title of button to empty spam folder */
+"Empty spam" = "清空垃圾郵件";
+
+/* Title of button to empty trash folder */
+"Empty trash" = "清空垃圾桶";
+
+/* Alert prompting to update Calendar */
+"Download the latest version of the Proton Calendar to open this event" = "請下載最新版的 Proton Calendar 來開啟此活動";
+
+/* Button to open App Store */
+"Download in App Store" = "下載至App Store";
+
+/* Button to open the Calendar app */
+"Open in Proton Calendar" = "在 Proton 行事曆開啟";
+
+/* Title of the sheet to advertise the auto delete feature to free users */
+"Clear out the junk" = "Clear out the junk";
+
+/* Text content of the sheet to advertise the auto delete feature to free users */
+"Automatically clear out messages older than 30 days from trash and spam. Enjoy this and other benefits when you upgrade." = "Automatically clear out messages older than 30 days from trash and spam. Enjoy this and other benefits when you upgrade.";
+
+/* Text to advertise what upgrading will provide */
+"Up to 3 TB of storage" = "多達 3 TB的儲存空間";
+
+/* Text to advertise what upgrading will provide */
+"Custom email domains" = "自訂電子郵件網域";
+
+/* Alert title, shows when current sender address in the composer is invalid anymore. */
+"Sender changed" = "寄件者已變更";
+
+/* Alert message, shows when current sender address in the composer is invalid anymore, the placeholder is a mail address. */
+"The original sender of this message is no longer valid. Your message will be sent from your default address %@." = "此郵件的原寄件者已無效，您的訊息將會從預設電子郵件 %@ 寄出。";
+
+/* The alert message that will be shown when user tries to change the sender if there is any attachment being uploaded. */
+"Please retry after all attachments are uploaded." = "請等待所有附件都上傳完畢後再重試。";
+
+/* Alert title */
+"Sending with the Share extension while offline is not supported" = "Sending with the Share extension while offline is not supported";
+
+/* The placeholder for the display name text field in contact edit view. */
+"Display name" = "顯示名稱";
+
+/* The placeholder for the first name text field in contact edit view. */
+"First name" = "名字";
+
+/* The placeholder for the last name text field in contact edit view. */
+"Last name" = "姓氏";
+
+/* The error message that is shown when no display name provided in contact edit view */
+"Display name field cannot be empty" = "顯示名稱不能為空";
+
+/* The error message that is shown when display name is too long provided in contact edit view */
+"Contact name is too long" = "聯絡人名稱超出範圍";
+
+/* The button text for add profile picture */
+"Add photo" = "加入照片";
+
+/* The button text for edit profile picture */
+"Edit photo" = "編輯相片";
+
+/* The title of select all button for select all messages feature */
+"Select all" = "全選";
+
+/* The title of unselect all button for select all messages feature */
+"Unselect all" = "取消全選";
+
+/* Warning message will be shown to user when user try to select more than acceptable message */
+"Maximum selection reached" = "已達選擇項目的數量上限";
+
+/* Placeholder if message sender is empty */
+"No Recipient" = "無收件人";
+
+/* The title of PIN code disable view */
+"Disable PIN code" = "停用 PIN 碼";
+
+/* The title of PIN code setup1 view */
+"Set PIN code" = "設定 PIN 碼";
+
+/*
+The title of PIN code setup2 view
+The title of textfield of PIN code setup2
+*/
+"Repeat PIN code" = "重複輸入 PIN 碼";
+
+/* The title of textfield of PIN code setup1 */
+"Enter new PIN code" = "輸入新的 PIN 碼";
+
+/* The assistive text of textfield of PIN code setup1 */
+"Enter a PIN code with min 4 characters and max 21 characters." = "請輸入一個 PIN 碼，長度為 4 - 21 個字元。";
+
+/* The error message of entering a short pin */
+"PIN is too short" = "PIN碼太短";
+
+/* The error message of entering a long pin */
+"PIN is too long" = "PIN碼過長";
+
+/* The error message of entering an invalid password */
+"The PIN codes must match!" = "PIN 碼必須相符！";
+
+/* The textField title when user trying to update its pin code setting */
+"Please enter old pin code " = "請輸入舊的個人識別數字代碼 ";
+
+/* The title of change PIN code option in security settings */
+"Change PIN code" = "變更 PIN 碼";
+
+/* The title of unsubscribe banner */
+"Unsubscribe from mailing list" = "取消訂閱接收郵件";
+
+/* The title of unsubscribe confirmation */
+"Unsubscribe?" = "確定要退訂？";
+
+/* Unsubscribe confirmation message */
+"This will unsubscribe you from the mailing list. The sender will be notified to no longer send emails to this address." = "此動作會使您退訂郵件清單。寄件者會收到通知，從此不再傳送郵件到此位址。";
+
+/* Alert telling the user that we are unable to preview this attachment */
+"Unable to preview this attachment" = "無法預覽此附件";
+
+/* Title for banner saying that we are currently downloading the attachment to preview it */
+"Downloading attachment" = "下載附件";
+
+/* The banner title that is shown in the message detail view. */
+"Snoozed until %@" = "已緩辦，直至 %@";
+
+/* The title of the button in the banner that is shown in the message detail view. */
+"Unsnooze" = "取消緩辦";
+
+/* A message shows to user after snoozing a conversation on the bottom banner the placeholder is a date, example, Snoozed until Tue, Apr 25, 08:00 */
+"Snooze until %@" = "緩辦直至 %@";
+
+/* Notification banner when user unsnooze a conversation */
+"Conversation unsnoozed" = "會話已取消緩辦";
+
+/* The title of snooze config in action sheet */
+"Snooze until..." = "緩辦直至...";
+
+/* One of snooze option shows in action sheet */
+"Later this week" = "本週稍後";
+
+/* One of snooze option shows in action sheet */
+"This weekend" = "本周末";
+
+/* One of snooze option shows in action sheet */
+"Next week" = "下一週";
+
+/* An error message will be shown to user when user select past snooze time */
+"Please select a time in the future" = "請選取未來的某個時間";
+
+/* The title of snooze promotion view */
+"Want to snooze any time?" = "想隨時延後?";
+
+/* The content description of snooze promotion view */
+"Unlock custom snooze times when you upgrade" = "Unlock custom snooze times when you upgrade";
+
+/* The benefit item for snooze promotion view */
+"Up to 15 email addresses/aliases" = "Up to 15 email addresses/aliases";
+
+/* The benefit item for snooze promotion view */
+"Unlimited folders, labels, and filters" = "資料夾、標籤和篩選器無上限";
+
+/* The title of the action option that will make the inline attachment as normal attachment. */
+"Add it as attachment" = "新增附件";
+
+/* The title in setting page */
+"Swipe to next message" = "滑動至下一則訊息";
+
+/* Description text for setting */
+"Allow navigating through messages by swiping left or right." = "啟用左右滑動切換訊息";
+
+/* The title of the spotlight of the auto import contacts. */
+"Your contacts at your fingertips" = "聯絡人資訊一手掌握";
+
+/* The message of the spotlight of the auto import contacts. */
+"No need to leave the app to find an email address. Sync contacts from your device to Proton Mail." = "不用離開應用程式也能找到電子郵件地址。將裝置上的聯絡人同步到 Proton Mail。";
+
+/* The title of the button of the spotlight of the auto import contacts. */
+"Enable auto-import" = "開啟自動匯入";
+
+/* The title for no contact hint view */
+"No contacts yet" = "還沒有任何聯絡人";
+
+/* The description for no contact hint view */
+"Import contacts from your device to send emails and invites with ease." = "從裝置匯入聯絡人，輕鬆發送電子郵件或邀請。";
+
+/* Button title for no contact hint view */
+"Auto-import contacts" = "自動匯入聯絡人";
+
+/* A title show to user after auto import button is clicked but contacts hasn't imported yet */
+"Importing your contacts" = "匯入您的聯絡人";
+
+/* A message show to user after auto import button is clicked but contacts hasn't imported yet */
+"Your contacts will appear here shortly." = "您的聯絡人即將顯示在此處。";
+
+/* The title of the dismissable banner in the contacts view. */
+"Automatically add new contacts from your device." = "自動從您的裝置新增聯絡人。";
+
+/* The title of the privacy and data in the account setting. */
+"Privacy and data" = "隱私與數據資料";
+
+/* cell title in device settings */
+"Storage" = "儲存空間";
+
+/* settings general section title */
+"Change account password" = "變更帳號密碼";
+
+/* settings general section title */
+"Change mailbox password" = "變更郵箱密碼";
+
+/*
+settings general section title
+title
+*/
+"Change password" = "變更密碼";
+
+/* settings general section title */
+"Security keys" = "安全性密鑰";
+
+/* Description of a feature of a paid subscription */
+"15 GB storage" = "15 GB 儲存空間";
+
+/* Description of a feature of a paid subscription */
+"%u email addresses" = "%u電子郵件位址";
+
+/* Description of a feature of a paid subscription */
+"Custom email domain" = "自訂電郵網域名稱電郵網域名稱";
+
+/* Description of a feature of a paid subscription */
+"Custom email domain support" = "支援自訂電子郵件網域";
+
+/* Description of a feature of a paid subscription */
+"%u personal calendars" = "%u personal calendars";
+
+/* Description of a feature of a paid subscription */
+"1 GB Storage and 1 email" = "1 GB Storage and 1 email";
+
+/* Description of a feature of a paid subscription */
+"End-to-end encryption" = "端對端加密";
+
+/* Description of a feature of a paid subscription */
+"Access to desktop app" = "Access to desktop app";
+
+/* Description of a feature of a paid subscription */
+"Priority customer support" = "優先客戶專屬支援";
+
+/* Description of a feature of a paid subscription */
+"+%u premium features" = "+%u premium features";
+
+/* Description of a feature of a paid subscription */
+"%u GB total storage" = "%u GB total storage";
+
+/* Description of a feature of a paid subscription */
+"%u TB total storage" = "%u TB total storage";
+
+/* Description of a feature of a paid subscription */
+"Yearly free storage bonuses" = "Yearly free storage bonuses";
+
+/* Description of a feature of a paid subscription */
+"Your own custom email domain" = "Your own custom email domain";
+
+/* Description of a feature of a paid subscription */
+"Calendar sharing" = "Calendar sharing";
+
+/* Description of a feature of a paid subscription */
+"Your own short @pm.me email alias" = "Your own short @pm.me email alias";
+
+/* Description of a feature of a paid subscription */
+"Custom schedule send and snooze times" = "Custom schedule send and snooze times";
+
+/* Description of a feature of a paid subscription */
+"Proton Mail desktop app" = "Proton Mail desktop app";
+
+/* Description of a feature of a paid subscription */
+"Version history" = "Version history";
+
+/* Description of a feature of a paid subscription */
+"Proton Sentinel program" = "Proton Sentinel program";
+
+/* Description of a feature of a paid subscription */
+"Proton Mail and all premium productivity features" = "Proton Mail and all premium productivity features";
+
+/* Description of a feature of a paid subscription */
+"Proton Drive including version history" = "Proton Drive including version history";
+
+/* Description of a feature of a paid subscription */
+"Proton Pass" = "Proton Pass";
+
+/* Description of a feature of a paid subscription */
+"Proton VPN" = "Proton VPN";
+
+/* Description of a feature of a paid subscription */
+"Proton Mail with automatic email forwarding" = "Proton Mail with automatic email forwarding";
+
+/* Description of a feature of a paid subscription */
+"Proton Pass with Dark Web Monitoring" = "Proton Pass with Dark Web Monitoring";
+
+/* Description of a feature of a paid subscription */
+"Proton VPN with malware and ad-blocking" = "Proton VPN with malware and ad-blocking";
+
+/* Description of a feature of a paid subscription */
+"Catch-all email address" = "Catch-all email address";
+
+/* Description of a feature of a paid subscription */
+"See your colleagues’ availability" = "See your colleagues’ availability";
+
+/* Description of a feature of a paid subscription */
+"Automatic email forwarding" = "Automatic email forwarding";
+
+/* Description of a feature of a paid subscription */
+"Early access to new apps and features" = "Early access to new apps and features";
+
+/* Description of a feature of a paid subscription */
+"%u GB storage per user" = "%u GB storage per user";
+
+/* Description of a feature of a paid subscription */
+"%u email addresses per user" = "%u email addresses per user";
+
+/* Description of a feature of a paid subscription */
+"Unlimited folders and labels" = "Unlimited folders and labels";
+
+/* Description of a feature of a paid subscription */
+"%u custom email domains" = "%u custom email domains";
+
+/* Description of a feature of a paid subscription */
+"Desktop app and email client support (via IMAP)" = "Desktop app and email client support (via IMAP)";
+
+/* Description of a feature of a paid subscription */
+"%ux more storage" = "%ux more storage";
+
+/* Description of a feature of a paid subscription */
+"Get %u GB—plenty of space to securely store your messages, files, and photos" = "Get %u GB—plenty of space to securely store your messages, files, and photos";
+
+/* Description of a feature of a paid subscription */
+"%ux more email addresses" = "%ux more email addresses";
+
+/* Description of a feature of a paid subscription */
+"Create up to %u email addresses, including @pm.me ones, to meet your needs." = "Create up to %u email addresses, including @pm.me ones, to meet your needs.";
+
+/* Description of a feature of a paid subscription */
+"Connect your own domain and send your professional or branded emails securely." = "Connect your own domain and send your professional or branded emails securely.";
+
+/* Description of a feature of a paid subscription */
+"Open your email and calendar with one click and avoid browser distractions." = "Open your email and calendar with one click and avoid browser distractions.";
+
+/* Description of a feature of a paid subscription */
+"Organize your emails using your preferred filing and labeling system." = "Organize your emails using your preferred filing and labeling system.";
+
+/* Description of a feature of a paid subscription */
+"Enjoy faster response time from dedicated support staff should an issue arise." = "Enjoy faster response time from dedicated support staff should an issue arise.";
+
+/* The title of the telemetry setting. */
+"Anonymous telemetry" = "匿名遙測";
+
+/* The title of the crash report setting. */
+"Anonymous crash reports" = "匿名當機報告";
+
+/* The subtitle of the anonymous telemetry setting. */
+"To improve our services, we sometimes collect anonymized usage data." = "為了改善我們的服務，我們有時候會蒐集匿名的使用資料。";
+
+/* The subtitle of the crash report setting. */
+"If the app crashes, a report will be sent to our engineers with details of the cause. These will only be used to improve the app." = "如果應用程式崩潰，系統將向我們的工程師發送詳細的崩潰報告。這些報告僅用於改進應用程式。";
+
+/* Title of the upsell page. */
+"Upgrade to %@" = "升級到 %@";
+
+/* Subtitle of the upsell page. */
+"To unlock more storage and premium features." = "To unlock more storage and premium features.";
+
+/* Shorthand for the free plan, as opposed to a paid plan */
+"Free" = "免費";
+
+/* Auto-renewal notice */
+"Auto-renews at the same price and terms unless canceled." = "Auto-renews at the same price and terms unless canceled.";
+
+/* Displayed next to the monthly price */
+"/month" = "/月";
+
+/* CTA button to purchase a plan (e.g. Get Mail Plus) */
+"Get %@" = "取得 %@";
+
+/* In the context of a discount */
+"Save %u%%" = "省下 %u%%";
+
+/* Error when trying to purchase an invalid product */
+"Invalid product ID: $@" = "無效的產品編號 : $@";
+
+/* Error when the user tries to purchase a plan before the current transaction is finished */
+"Purchase already in progress" = "Purchase already in progress";
+
+/* Title of the upsell page */
+"Clear out old trash and spam" = "Clear out old trash and spam";
+
+/* Subtitle of the upsell page */
+"Enjoy a tidier mailbox and benefit from other premium features with %@." = "Enjoy a tidier mailbox and benefit from other premium features with %@.";
+
+/* Title of the upsell page */
+"Group your contacts" = "Group your contacts";
+
+/* Subtitle of the upsell page */
+"Easily send emails to a group and enjoy other premium features with %@." = "Easily send emails to a group and enjoy other premium features with %@.";
+
+/* Title of the upsell page */
+"Need more labels or folders?" = "Need more labels or folders?";
+
+/* Subtitle of the upsell page */
+"Get them and other premium features when you upgrade to %@." = "Get them and other premium features when you upgrade to %@.";
+
+/* Title of the upsell page */
+"Customize your signature" = "Customize your signature";
+
+/* Subtitle of the upsell page */
+"Use your own mobile signature and enjoy other premium features with %@." = "Use your own mobile signature and enjoy other premium features with %@.";
+
+/* Title of the upsell page */
+"Schedule now, send later" = "Schedule now, send later";
+
+/* Subtitle of the upsell page */
+"Enjoy custom schedule send and other premium features with %@." = "Enjoy custom schedule send and other premium features with %@.";
+
+/* Title of the upsell page */
+"Bad time for this email?" = "Bad time for this email?";
+
+/* Subtitle of the upsell page */
+"Snooze it for a time of your choosing. Get custom snooze and more with %@." = "Snooze it for a time of your choosing. Get custom snooze and more with %@.";
+
+/* Title of the upsell page */
+"Choose a plan" = "Choose a plan";
+
+/* Refers to an annual billing cycle */
+"Annual" = "Annual";
+
+/* Label on the Proton Unlimited plan */
+"Best value" = "Best value";
+
+/* Button to expand the feature list */
+"%u more features" = "%u more features";
+
+/* 1st parameter is the full price, 2nd is the cycle: '1 month', '12 months' etc */
+"Billed at %1$@ every %2$@" = "Billed at %1$@ every %2$@";
+
+/* In the list of premium plan features */
+"Premium value included" = "Premium value included";
+
+/* The title of the modal */
+"Your subscription is ending soon" = "Your subscription is ending soon";
+
+/* The subtitle of the modal */
+"Reactivate by %@ to keep these features:" = "Reactivate by %@ to keep these features:";
+
+/* Title of the modal button */
+"Reactivate subscription" = "Reactivate subscription";
+
+/* Confirmation message after reactivation subscription */
+"Subscription reactivated" = "Subscription reactivated";
+
+/* Error message while reactivation subscription */
+"Subscription reactivation failed" = "Subscription reactivation failed";
+
+/* Title of the authorization prompt */
+"Don’t miss an email" = "Don’t miss an email";
+
+/* Title of the authorization prompt */
+"Want to stay updated?" = "Want to stay updated?";
+
+/* Body of the authorization prompt */
+"Notifications help you keep on top of your inbox without checking the app." = "Notifications help you keep on top of your inbox without checking the app.";
+
+/* Body of the authorization prompt */
+"Turn on notifications to know when you get a response to your email." = "Turn on notifications to know when you get a response to your email.";
+
+/* Button to authorizate notifications */
+"Enable push notifications" = "Enable push notifications";

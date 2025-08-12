@@ -1,0 +1,68 @@
+source 'https://cdn.cocoapods.org/'
+
+def monkey_path
+  'git@gitlab.protontech.ch:tpe/ios-monkey.git'
+end
+
+def monkey_commit
+  "d11605f4"
+end
+
+def minimum_deployment_target
+  '15.0'
+end
+
+platform :ios, minimum_deployment_target
+inhibit_all_warnings!
+use_frameworks!
+
+def app_share_pods
+  pod 'Groot', '3.0.1'
+  pod 'MBProgressHUD' , '1.1.0'
+  pod 'PromiseKit', '6.13.1'
+  pod 'SwiftSoup', '~> 2.3'
+end
+
+def app_pods
+  app_share_pods
+  pod 'SideMenuSwift', :git=> 'git@gitlab.protontech.ch:jchen/SideMenu.git', :tag=>'v2.0.9.autolayout'
+  pod 'SwipyCell', :git=> 'git@gitlab.protontech.ch:jchen/SwipyCell.git', :commit => '923310a'
+  pod "SkeletonView", '1.30.4'
+end
+
+target 'ProtonMail' do
+  app_pods
+end
+
+target 'ProtonMailTests' do
+  inherit! :search_paths
+  app_pods
+end
+
+target 'ProtonMailUITests' do
+  inherit! :search_paths
+  pod 'iosMonkey', :git => monkey_path, :commit => monkey_commit
+end
+
+target 'Share' do
+  app_share_pods
+end
+
+post_install do | installer |
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = minimum_deployment_target
+      config.build_settings['CODE_SIGN_IDENTITY'] = ''
+      if config.name.include? 'Release'
+        config.build_settings['SWIFT_OPTIMIZATION_LEVEL'] = '-Owholemodule'
+        else
+        config.build_settings['SWIFT_OPTIMIZATION_LEVEL'] = '-Onone'
+      end
+    end
+  end
+
+  installer.pods_project.build_configurations.each do |config|
+     # -warn-long-function-bodies refers to compilation time, not actual length in lines
+     config.build_settings['OTHER_SWIFT_FLAGS'] = "#{config.build_settings['OTHER_SWIFT_FLAGS']} -Xfrontend -warn-long-function-bodies=100 -Xfrontend -warn-long-expression-type-checking=100"
+   end
+end

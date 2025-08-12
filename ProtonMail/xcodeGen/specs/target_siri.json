@@ -1,0 +1,54 @@
+{
+   "targets": {
+      "Siri": {
+         "type": "app-extension",
+         "platform": "iOS",
+         "sources": [
+            {
+               "path": "Siri",
+               "excludes": [
+                  "**/*.plist",
+                  "**/*.entitlements",
+                  "**/*.md"
+               ]
+            },
+            "ProtonMail/Utilities/APP_share_push_siri",
+            "ProtonMail/Extension/Foundations/APP_share_push_siri",
+            "ProtonMail/Extension/Foundations/APP_share_siri",
+            {
+               "path": "ProtonMail/Resource/Localization",
+               "excludes": [
+                  "**/Localizable.*"
+               ]
+            }
+         ],
+         "dependencies": [
+            {
+               "package": "ProtonCore",
+               "products": [
+                  "ProtonCoreKeymaker",
+                  "ProtonCoreLog"
+               ]
+            }
+         ],
+         "configFiles": {
+            "Debug": "xcodeGen/xcconfig/Siri-Debug.xcconfig",
+            "Release": "xcodeGen/xcconfig/Siri-Release.xcconfig",
+            "Adhoc": "xcodeGen/xcconfig/Siri-Adhoc.xcconfig"
+         },
+         "settings": {
+            "configs": {
+               "Debug": {
+                  "INFOPLIST_FILE": "Siri/Info.plist"
+               },
+               "Release": {
+                  "INFOPLIST_FILE": "Siri/Info.plist"
+               },
+               "Adhoc": {
+                  "INFOPLIST_FILE": "Siri/Info.plist"
+               }
+            }
+         }
+      }
+   }
+}

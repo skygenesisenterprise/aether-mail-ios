@@ -1,0 +1,50 @@
+{
+   "targets": {
+      "ProtonMailTests": {
+         "deploymentTarget": "17",
+         "type": "bundle.unit-test",
+         "platform": "iOS",
+         "dependencies": [
+            {
+               "target": "ProtonMail"
+            },
+            {
+               "package": "Difference"
+            },
+            {
+               "package": "ProtonCore",
+               "products": [
+                  "fusion",
+                  "ProtonCoreTestingToolkitUnitTestsFeatureFlag",
+                  "ProtonCoreTestingToolkitUnitTestsLoginUI",
+                  "ProtonCoreTestingToolkitUnitTestsPayments"
+               ]
+            }
+         ],
+         "sources": [
+            {
+               "path": "ProtonMailTests/ProtonMail/Extensions/ProtonCore/Data+OpenPGP_TestSamples",
+               "buildPhase": "resources"
+            },
+            {
+               "path": "ProtonMailTests",
+               "excludes": [
+                  "Supporting Files/Info.plist",
+                  "**/*.md"
+               ]
+            },
+            {
+               "path": "ProtonMail/Resource/Localization",
+               "excludes": [
+                  "**/Localizable.*"
+               ]
+            }
+         ],
+         "configFiles": {
+            "Debug": "xcodeGen/xcconfig/ProtonMailTests-Debug.xcconfig",
+            "Release": "xcodeGen/xcconfig/ProtonMailTests-Release.xcconfig",
+            "Adhoc": "xcodeGen/xcconfig/ProtonMailTests-Adhoc.xcconfig"
+         }
+      }
+   }
+}

@@ -1,0 +1,76 @@
+{
+   "schemes": {
+      "ProtonMail": {
+         "build": {
+            "targets": {
+               "ProtonMail": "all",
+               "ProtonMailTests": [
+                  "Test"
+               ],
+               "ProtonMailUITests": [
+                  "Test"
+               ]
+            },
+            "language": "en"
+         },
+         "run": {
+            "config": "Debug",
+            "gatherCoverageData": true,
+            "commandLineArguments": {
+               "-com.apple.CoreData.ConcurrencyDebug 1": true,
+               "-com.apple.CoreData.SQLDebug 1": false,
+               "-com.apple.CoreData.SQLDebug 3": false,
+               "-com.apple.CoreData.SQLDebug 4": false,
+               "-ch.protonmail.protonmail.APIURLOverride https://api.proton.black": false
+            },
+            "environmentVariables": [
+               {
+                  "variable": "DYNAMIC_DOMAIN",
+                  "value": "proton.black",
+                  "isEnabled": false
+               },
+               {
+                  "variable": "SQLITE_ENABLE_FILE_ASSERTIONS",
+                  "value": 1,
+                  "isEnabled": false
+               },
+               {
+                  "variable": "SQLITE_ENABLE_THREAD_ASSERTIONS",
+                  "value": 1,
+                  "isEnabled": false
+               },
+               {
+                  "variable": "SQLITE_AUTO_TRACE",
+                  "value": 1,
+                  "isEnabled": false
+               }
+            ]
+         },
+         "test": {
+            "config": "Debug",
+            "gatherCoverageData": true,
+            "targets": [
+               "ProtonMailTests",
+               "ProtonMailUITests"
+            ],
+            "language": "en",
+            "region": "US",
+            "environmentVariables": {
+               "PROJECT_ROOT": "${SRCROOT}",
+               "TZ": "UTC"
+            }
+         },
+         "profile": {
+            "config": "Debug"
+         },
+         "analyze": {
+            "config": "Debug"
+         },
+         "archive": {
+            "config": "Release",
+            "customArchiveName": "ProtonMail",
+            "revealArchiveInOrganizer": true
+         }
+      }
+   }
+}

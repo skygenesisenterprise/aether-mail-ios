@@ -1,0 +1,10 @@
+sources:
+    - ../ProtonMail
+    - ../ProtonMailTests
+    - ../Push
+    - ../PushService
+    - ../Share
+    - ../Siri
+templates:
+    - tests/templates
+output: ../ProtonMailTests/Generated

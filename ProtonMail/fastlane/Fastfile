@@ -1,0 +1,180 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+# Variable
+DEVELOPER_KEYCHAIN_NAME = "MAIL_IOS_CERTIFICATE_KEYCHAIN"
+DEVELOPER_KEYCHAIN_PASSWORD = "TUFJTF9JT1NfQ0VSVElGSUNBVEVfS0VZQ0hBSU4="
+CERTIFICATE_PATH = "Certificates.p12"
+APP_IDENTIFIER = "ch.protonmail.protonmail"
+
+TEST_DEVICE = "iPhone 16 Pro (18.4)"
+UNIT_TEST_SCHEME = "ProtonMailTests"
+UI_TEST_SCHEME = "ProtonMailUITests"
+
+ENV["FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT"] = "120"
+
+def select_xcode
+  xcodes(
+    version: '16.3',
+    select_for_current_build_only: true,
+  )
+end
+
+def set_up_keychain()
+  create_keychain(
+      name: DEVELOPER_KEYCHAIN_NAME,
+      password: DEVELOPER_KEYCHAIN_PASSWORD,
+      default_keychain: false,
+      add_to_search_list: true,
+      unlock: true
+  )
+  import_certificate(
+      keychain_name: DEVELOPER_KEYCHAIN_NAME,
+      keychain_password: DEVELOPER_KEYCHAIN_PASSWORD,
+      certificate_path: CERTIFICATE_PATH,
+      certificate_password: ENV["DISTRIBUTION_CERTIFICATE_PASSWORD"]
+    )
+end
+
+def tear_down_keychain
+  delete_keychain(
+      name: DEVELOPER_KEYCHAIN_NAME
+  )
+end
+
+def get_xcode_profile()
+  ids = [
+    "ch.protonmail.protonmail",
+    "ch.protonmail.protonmail.Share",
+    "ch.protonmail.protonmail.PushService",
+    "ch.protonmail.protonmail.Siri"
+  ]
+
+  ids.each do |id|
+    get_provisioning_profile(
+      app_identifier: id,
+      readonly: true,
+    )
+  end
+end
+
+def get_latest_build_number()
+  latest_testflight_build_number(
+    app_identifier: APP_IDENTIFIER,
+    version: get_version_number(xcodeproj: "ProtonMail.xcodeproj", target: "ProtonMail")
+  )
+end
+
+def build_release_app(scheme)
+  build_app(
+    scheme: scheme,
+    clean: true,
+    output_directory: "outputs/",
+    export_method: "app-store",
+    export_options: {
+        provisioningProfiles: {
+            "ch.protonmail.protonmail" => "ProtonMail Release",
+            "ch.protonmail.protonmail.Share" => "Protonmail share release",
+            "ch.protonmail.protonmail.PushService" => "protonmail push service release",
+            "ch.protonmail.protonmail.Siri" => "Protonmail Siri kit release"
+        }
+    },
+    xcargs: "-skipPackagePluginValidation",
+  )
+end
+
+platform :ios do
+  desc "Build the app and upload to testflight"
+  lane :distribute do |options|
+    select_xcode
+    set_up_keychain()
+
+    app_store_connect_api_key
+
+    get_xcode_profile()
+
+    latest_build_number = get_latest_build_number()
+    next_build_number = latest_build_number + 1
+    bundle_version = sh("./setup_bundle_version.sh " + next_build_number.to_s)
+
+    build_release_app(options[:scheme])
+
+    sentry_debug_files_upload
+
+    upload_to_testflight(
+      team_name: "Proton Technologies AG",
+      skip_waiting_for_build_processing: true
+    )
+
+    tear_down_keychain
+  end
+
+  desc "Build debug apps for testing"
+  lane :build_for_testing do |options|
+    run_tests(
+      build_for_testing: true,
+      scheme: UI_TEST_SCHEME,
+      destination: "generic/platform=iOS Simulator",
+      result_bundle: true,
+      app_identifier: APP_IDENTIFIER,
+      reinstall_app: false,
+      skip_detect_devices: true
+    )
+  end
+
+  %w{major minor patch}.each do |part|
+      lane "bump_#{part}".to_sym do
+        increment_version_number(bump_type: part)
+      end
+  end
+
+  desc "Run unit test and get test coverage"
+  lane :unit_test do |options|
+    select_xcode
+
+    run_tests(
+      device: TEST_DEVICE,
+      scheme: UNIT_TEST_SCHEME,
+      app_identifier: APP_IDENTIFIER,
+      reset_simulator: true,
+      skip_package_dependencies_resolution: true,
+      test_without_building: true,
+      output_directory: "../test_output/"
+    )
+  end
+
+  desc "Run ui test and get test coverage"
+  lane :ui_test do |options|
+    select_xcode
+
+    run_tests(
+      scheme: UI_TEST_SCHEME,
+      skip_package_dependencies_resolution: true,
+      prelaunch_simulator: true,
+      test_without_building: true,
+      parallel_testing: true,
+      concurrent_workers: options[:concurrent_workers],
+      device: TEST_DEVICE,
+      testplan: options[:testplan],
+      app_identifier: APP_IDENTIFIER,
+      output_directory: "../test_output/TestResults",
+      output_files: "report.xml",
+      result_bundle: true
+    )
+  end
+
+end

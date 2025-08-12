@@ -1,0 +1,205 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire",
+        "state": {
+          "branch": null,
+          "revision": "d120af1e8638c7da36c8481fd61a66c0c08dc4fc",
+          "version": "5.4.4"
+        }
+      },
+      {
+        "package": "fusion",
+        "repositoryURL": "https://github.com/ProtonMail/apple-fusion",
+        "state": {
+          "branch": null,
+          "revision": "4df5ec5ce3605e9c364803c28cd06730fdb7fac4",
+          "version": "2.1.5"
+        }
+      },
+      {
+        "package": "CryptoSwift",
+        "repositoryURL": "https://github.com/krzyzanowskim/CryptoSwift",
+        "state": {
+          "branch": null,
+          "revision": "729e01bc9b9dab466ac85f21fb9ee2bc1c61b258",
+          "version": "1.8.4"
+        }
+      },
+      {
+        "package": "Difference",
+        "repositoryURL": "https://github.com/krzysztofzablocki/Difference.git",
+        "state": {
+          "branch": null,
+          "revision": "7eb73c5d28c87dd6c4bac805aa28f757648aa92c",
+          "version": "1.1.0"
+        }
+      },
+      {
+        "package": "Factory",
+        "repositoryURL": "https://github.com/hmlongco/Factory.git",
+        "state": {
+          "branch": null,
+          "revision": "c8110886836ab4dd1136dbac0c04f0f36cd68540",
+          "version": "2.4.5"
+        }
+      },
+      {
+        "package": "LifetimeTracker",
+        "repositoryURL": "https://github.com/krzysztofzablocki/LifetimeTracker.git",
+        "state": {
+          "branch": null,
+          "revision": "fccc98aae719f6615d1f0cfd8f5e60f3888bdf62",
+          "version": "1.8.4"
+        }
+      },
+      {
+        "package": "Lottie",
+        "repositoryURL": "https://github.com/airbnb/lottie-ios",
+        "state": {
+          "branch": null,
+          "revision": "45517c3cfec9469bbdd4f86e32393c28ae9df0bc",
+          "version": "4.3.3"
+        }
+      },
+      {
+        "package": "OHHTTPStubs",
+        "repositoryURL": "https://github.com/AliSoftware/OHHTTPStubs",
+        "state": {
+          "branch": null,
+          "revision": "12f19662426d0434d6c330c6974d53e2eb10ecd9",
+          "version": "9.1.0"
+        }
+      },
+      {
+        "package": "ProtonCore",
+        "repositoryURL": "https://github.com/ProtonMail/protoncore_ios.git",
+        "state": {
+          "branch": null,
+          "revision": "d72ee3f8ec940f15374f4d98e3e2ece5340ac419",
+          "version": "32.7.1"
+        }
+      },
+      {
+        "package": "ProtonInboxICal",
+        "repositoryURL": "https://gitlab.protontech.ch/apple/inbox/protoninboxical",
+        "state": {
+          "branch": null,
+          "revision": "0451bb3dafcad5c50ea68699db45d7fec559f991",
+          "version": "1.3.0"
+        }
+      },
+      {
+        "package": "ProtonInboxRSVP",
+        "repositoryURL": "https://gitlab.protontech.ch/apple/inbox/protoninboxrsvp",
+        "state": {
+          "branch": null,
+          "revision": "d3e2057a5a2e69d1d32b2a87b6d72ec244ef3b13",
+          "version": "2.8.2"
+        }
+      },
+      {
+        "package": "Reachability",
+        "repositoryURL": "https://github.com/ashleymills/Reachability.swift",
+        "state": {
+          "branch": null,
+          "revision": "21d1dc412cfecbe6e34f1f4c4eb88d3f912654a6",
+          "version": "5.2.4"
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "7f9fb5d43ecd4aa714c00746f54873f354403438",
+          "version": "5.15.8"
+        }
+      },
+      {
+        "package": "Sentry",
+        "repositoryURL": "https://github.com/getsentry/sentry-cocoa.git",
+        "state": {
+          "branch": null,
+          "revision": "930b78a63f47549c81e6e63c9172584f7d3dfdd6",
+          "version": "8.52.1"
+        }
+      },
+      {
+        "package": "swift-css-parser",
+        "repositoryURL": "https://github.com/stackotter/swift-css-parser.git",
+        "state": {
+          "branch": null,
+          "revision": "6cf16c6696def00a313daef0e29eb27f5c39ece4",
+          "version": "0.1.2"
+        }
+      },
+      {
+        "package": "swift-custom-dump",
+        "repositoryURL": "https://github.com/pointfreeco/swift-custom-dump",
+        "state": {
+          "branch": null,
+          "revision": "82645ec760917961cfa08c9c0c7104a57a0fa4b1",
+          "version": "1.3.3"
+        }
+      },
+      {
+        "package": "swift-snapshot-testing",
+        "repositoryURL": "https://github.com/pointfreeco/swift-snapshot-testing",
+        "state": {
+          "branch": null,
+          "revision": "37230a37e83f1b7023be08e1b1a2603fcb1567fb",
+          "version": "1.18.4"
+        }
+      },
+      {
+        "package": "swift-syntax",
+        "repositoryURL": "https://github.com/swiftlang/swift-syntax",
+        "state": {
+          "branch": null,
+          "revision": "f99ae8aa18f0cf0d53481901f88a0991dc3bd4a2",
+          "version": "601.0.1"
+        }
+      },
+      {
+        "package": "SwiftOTP",
+        "repositoryURL": "https://github.com/lachlanbell/SwiftOTP",
+        "state": {
+          "branch": null,
+          "revision": "93d4942c90dd498580988ffb9971e2ddf91d5a28",
+          "version": "2.0.3"
+        }
+      },
+      {
+        "package": "TrustKit",
+        "repositoryURL": "https://github.com/ProtonMail/TrustKit",
+        "state": {
+          "branch": null,
+          "revision": "d107d7cc825f38ae2d6dc7c54af71d58145c3506",
+          "version": "1.0.3"
+        }
+      },
+      {
+        "package": "xctest-dynamic-overlay",
+        "repositoryURL": "https://github.com/pointfreeco/xctest-dynamic-overlay",
+        "state": {
+          "branch": null,
+          "revision": "39de59b2d47f7ef3ca88a039dff3084688fe27f4",
+          "version": "1.5.2"
+        }
+      },
+      {
+        "package": "Yams",
+        "repositoryURL": "https://github.com/jpsim/Yams.git",
+        "state": {
+          "branch": null,
+          "revision": "3d6871d5b4a5cd519adf233fbb576e0a2af71c17",
+          "version": "5.4.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

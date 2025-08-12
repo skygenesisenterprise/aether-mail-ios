@@ -1,0 +1,112 @@
+{
+   "targets": {
+      "Share": {
+         "type": "app-extension",
+         "platform": "iOS",
+         "sources": [
+            {
+               "path": "Share",
+               "excludes": [
+                  "**/*.plist",
+                  "**/*.entitlements",
+                  "**/*.md",
+                  "Base.lproj"
+               ]
+            },
+            {
+               "path": "ProtonMail",
+               "includes": [
+                  "**/share",
+                  "**/APP_share",
+                  "**/APP_share_push",
+                  "**/APP_share_push_siri",
+                  "**/APP_share_push_uiTest",
+                  "**/APP_share_siri",
+                  "Generated/APP_share",
+                  "Resource/Localization"
+               ],
+               "excludes": [
+                  "Resource/APP_share/DOMPurify"
+               ]
+            },
+            {
+               "path": "ProtonMail/Resource/APP_share/DOMPurify/dist",
+               "includes": [
+                  "purify.min.js"
+               ]
+            }
+         ],
+         "dependencies": [
+            {
+               "sdk": "libc++.tbd"
+            },
+            {
+               "target": "ProtonMailAnalytics"
+            },
+            {
+               "package": "Factory"
+            },
+            {
+               "package": "ProtonCoreEventsLoop"
+            },
+            {
+               "package": "ProtonCore",
+               "products": [
+                  "ProtonCoreAuthenticationKeyGeneration",
+                  "ProtonCoreChallenge",
+                  "ProtonCoreCryptoGoImplementation",
+                  "ProtonCoreKeymaker",
+                  "ProtonCoreTelemetry",
+                  "ProtonCoreVCard"
+               ]
+            },
+            {
+               "package": "SwiftCSSParser"
+            }
+         ],
+         "preBuildScripts": [
+            {
+               "basedOnDependencyAnalysis": false,
+               "name": "SwiftLint",
+               "path": "xcodeGen/swiftlint.sh"
+            },
+            {
+               "basedOnDependencyAnalysis": false,
+               "name": "locheck",
+               "path": "xcodeGen/locheck.sh"
+            },
+            {
+               "basedOnDependencyAnalysis": false,
+               "name": "swiftGen",
+               "path": "xcodeGen/swiftGen.sh",
+               "outputFiles": [
+                  "${SRCROOT}/ProtonMail/Resource/APP_share/Generated/Images.generated.swift"
+               ]
+            },
+            {
+               "basedOnDependencyAnalysis": false,
+               "name": "Sourcery",
+               "path": "xcodeGen/sourcery.sh"
+            }
+         ],
+         "configFiles": {
+            "Debug": "xcodeGen/xcconfig/Share-Debug.xcconfig",
+            "Release": "xcodeGen/xcconfig/Share-Release.xcconfig",
+            "Adhoc": "xcodeGen/xcconfig/Share-Adhoc.xcconfig"
+         },
+         "settings": {
+            "configs": {
+               "Debug": {
+                  "INFOPLIST_FILE": "Share/Info.plist"
+               },
+               "Release": {
+                  "INFOPLIST_FILE": "Share/Info.plist"
+               },
+               "Adhoc": {
+                  "INFOPLIST_FILE": "Share/Info.plist"
+               }
+            }
+         }
+      }
+   }
+}
